@@ -1,0 +1,172 @@
+table {
+  table-layout: fixed;
+  max-width: 80%;
+}
+
+.md-typeset div.arithmatex {
+  overflow: initial;
+}
+
+
+.inline-color {
+    color: #ff9100;
+}
+
+
+
+
+:root {
+  --md-admonition-icon--definition: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3 1 9l11 6 9-4.91V17h2V9M5 13.18v4L12 21l7-3.82v-4L12 17z"/></svg>');
+  --md-admonition-icon--remark: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 23a1 1 0 0 1-1-1v-3H7a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-4.1l-3.7 3.71c-.2.18-.44.29-.7.29zm1-6v3.08L16.08 17H21V7H7v10zM3 15H1V3a2 2 0 0 1 2-2h16v2H3zm6-6h10v2H9zm0 4h8v2H9z"/></svg>');
+  --md-admonition-icon--example: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 16V4H8v12zm2 0a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V4c0-1.11.89-2 2-2h12a2 2 0 0 1 2 2zm-6 4v2H4a2 2 0 0 1-2-2V7h2v13z"/></svg>');
+  --md-admonition-icon--theorem: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.47 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8m-4-6L7 8l3 2 2-3 2 3 3-2-1 6zm.56 2c-.34 0-.56-.22-.56-.56V15h8v.44c0 .34-.22.56-.56.56z"/></svg>');
+  --md-admonition-icon--proposition: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 3c-1.27 0-2.4.8-2.82 2H3v2h1.95L2 14c-.47 2 1 3 3.5 3s4.06-1 3.5-3L6.05 7h3.12c.33.85.98 1.5 1.83 1.83V20H2v2h20v-2h-9V8.82c.85-.32 1.5-.97 1.82-1.82h3.13L15 14c-.47 2 1 3 3.5 3s4.06-1 3.5-3l-2.95-7H21V5h-6.17C14.4 3.8 13.27 3 12 3m0 2a1 1 0 0 1 1 1 1 1 0 0 1-1 1 1 1 0 0 1-1-1 1 1 0 0 1 1-1m-6.5 5.25L7 14H4zm13 0L20 14h-3z"/></svg>');
+  --md-admonition-icon--corollary: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10.6 13.4a1 1 0 0 1-1.4 1.4 4.8 4.8 0 0 1 0-7l3.5-3.6a5.1 5.1 0 0 1 7.1 0 5.1 5.1 0 0 1 0 7.1l-1.5 1.5a6.4 6.4 0 0 0-.4-2.4l.5-.5a3.2 3.2 0 0 0 0-4.3 3.2 3.2 0 0 0-4.3 0l-3.5 3.6a2.9 2.9 0 0 0 0 4.2M23 18v2h-3v3h-2v-3h-3v-2h3v-3h2v3m-3.8-4.3a4.8 4.8 0 0 0-1.4-4.5 1 1 0 0 0-1.4 1.4 2.9 2.9 0 0 1 0 4.2l-3.5 3.6a3.2 3.2 0 0 1-4.3 0 3.2 3.2 0 0 1 0-4.3l.5-.4a7.3 7.3 0 0 1-.4-2.5l-1.5 1.5a5.1 5.1 0 0 0 0 7.1 5.1 5.1 0 0 0 7.1 0l1.8-1.8a6 6 0 0 1 3.1-4.3"/></svg>');
+  --md-admonition-icon--lemma: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 1 7 7c0 2.38-1.19 4.47-3 5.74V17a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1v-2.26C6.19 13.47 5 11.38 5 9a7 7 0 0 1 7-7M9 21v-1h6v1a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1m3-17a5 5 0 0 0-5 5c0 2.05 1.23 3.81 3 4.58V16h4v-2.42c1.77-.77 3-2.53 3-4.58a5 5 0 0 0-5-5"/></svg>');
+  --md-admonition-icon--lemma: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.4-2.8.3-3.7-3.6-.8-1.9-3.2L12 3 8.6 1.5 6.7 4.7l-3.6.8.3 3.7L1 12l2.4 2.8-.3 3.7 3.6.8 1.9 3.2L12 21l3.4 1.5 1.9-3.2 3.6-.8-.3-3.7zm-4.3 4.9-2.7.6-1.4 2.4-2.6-1.1-2.6 1.1L8 17.5l-2.7-.6.2-2.8L3.7 12l1.8-2.1-.2-2.8L8 6.5l1.4-2.4L12 5.2l2.6-1.1L16 6.5l2.7.6-.2 2.8 1.8 2.1-1.8 2.1zm-2.1-9.3L18 9l-8 8-4-4 1.4-1.4 2.6 2.6z"/></svg>');
+  --md-admonition-icon--exercise: url('data:image/svg+xml;utf8, <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.57 14.86 22 13.43 20.57 12 17 15.57 8.43 7 12 3.43 10.57 2 9.14 3.43 7.71 2 5.57 4.14 4.14 2.71 2.71 4.14l1.43 1.43L2 7.71l1.43 1.43L2 10.57 3.43 12 7 8.43 15.57 17 12 20.57 13.43 22l1.43-1.43L16.29 22l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L22 16.29z"/></svg>');
+}
+
+
+/* Definition  */
+.md-typeset .admonition.definition,
+.md-typeset details.definition {
+  border-color: rgb(43, 155, 70);
+}
+.md-typeset .definition > .admonition-title,
+.md-typeset .definition > summary {
+  background-color: rgba(43, 155, 70, 0.1);
+}
+.md-typeset .definition > .admonition-title::before,
+.md-typeset .definition > summary::before {
+  background-color: rgb(43, 155, 70);
+  -webkit-mask-image: var(--md-admonition-icon--definition);
+          mask-image: var(--md-admonition-icon--definition);
+}
+
+/* Remark */
+
+.md-typeset .admonition.remark,
+.md-typeset details.remark {
+  border-color: #448aff;
+}
+.md-typeset .remark > .admonition-title,
+.md-typeset .remark > summary {
+  background-color: #448aff1a;
+}
+.md-typeset .remark > .admonition-title::before,
+.md-typeset .remark > summary::before {
+  background-color: #448aff;
+  -webkit-mask-image: var(--md-admonition-icon--remark);
+          mask-image: var(--md-admonition-icon--remark);
+}
+
+/* Example overload*/
+
+.md-typeset .example > .admonition-title::before,
+.md-typeset .example > summary::before {
+  -webkit-mask-image: var(--md-admonition-icon--example);
+          mask-image: var(--md-admonition-icon--example);
+}
+
+
+/* Theorem */
+.md-typeset .admonition.theorem,
+.md-typeset details.theorem {
+  border-color: #ff1744;
+}
+.md-typeset .theorem > .admonition-title,
+.md-typeset .theorem > summary {
+  background-color: #ff17441a;
+}
+.md-typeset .theorem > .admonition-title::before,
+.md-typeset .theorem > summary::before {
+  background-color: #ff1744;
+  -webkit-mask-image: var(--md-admonition-icon--theorem);
+          mask-image: var(--md-admonition-icon--theorem);
+}
+
+/* Proposition */
+.md-typeset .admonition.proposition,
+.md-typeset details.proposition {
+  border-color: #ff5252;
+}
+.md-typeset .proposition > .admonition-title,
+.md-typeset .proposition > summary {
+  background-color: #ff52521a;
+}
+.md-typeset .proposition > .admonition-title::before,
+.md-typeset .proposition > summary::before {
+  background-color: #ff5252;
+  -webkit-mask-image: var(--md-admonition-icon--proposition);
+          mask-image: var(--md-admonition-icon--proposition);
+}
+
+
+/* Corollary (same color as proposition)*/
+
+.md-typeset .admonition.corollary,
+.md-typeset details.corollary {
+  border-color: #ff5252;
+}
+.md-typeset .corollary > .admonition-title,
+.md-typeset .corollary > summary {
+  background-color: #ff52521a;
+}
+.md-typeset .corollary > .admonition-title::before,
+.md-typeset .corollary > summary::before {
+  background-color: #ff5252;
+  -webkit-mask-image: var(--md-admonition-icon--corollary);
+          mask-image: var(--md-admonition-icon--corollary);
+}
+
+/* Lemma (color is #ff9100) */
+
+.md-typeset .admonition.lemma,
+.md-typeset details.lemma {
+  border-color: #ff9100;
+}
+.md-typeset .lemma > .admonition-title,
+.md-typeset .lemma > summary {
+  background-color: #ff91001a;
+}
+.md-typeset .lemma > .admonition-title::before,
+.md-typeset .lemma > summary::before {
+  background-color: #ff9100;
+  -webkit-mask-image: var(--md-admonition-icon--lemma);
+          mask-image: var(--md-admonition-icon--lemma);
+}
+
+/* Proof (color is #9e9e9e) */
+
+.md-typeset .admonition.proof,
+.md-typeset details.proof {
+  border-color: #9e9e9e;
+}
+.md-typeset .proof > .admonition-title,
+.md-typeset .proof > summary {
+  background-color: #9e9e9e1a;
+}
+.md-typeset .proof > .admonition-title::before,
+.md-typeset .proof > summary::before {
+  background-color: #9e9e9e;
+  -webkit-mask-image: var(--md-admonition-icon--lemma);
+          mask-image: var(--md-admonition-icon--lemma);
+}
+
+/* Exercise (color is #64dd17) */
+
+.md-typeset .admonition.exercise,
+.md-typeset details.exercise {
+  border-color: #64dd17;
+}
+.md-typeset .exercise > .admonition-title,
+.md-typeset .exercise > summary {
+  background-color: #64dd171a;
+}
+.md-typeset .exercise > .admonition-title::before,
+.md-typeset .exercise > summary::before {
+  background-color: #64dd17;
+  -webkit-mask-image: var(--md-admonition-icon--exercise);
+          mask-image: var(--md-admonition-icon--exercise);
+}

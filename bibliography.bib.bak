@@ -1,0 +1,1837 @@
+% Encoding: UTF-8
+
+@Book{jech2003,
+  Title                    = {Set Theory -- The Third Millennium Edition, revised and expanded},
+  Author                   = {Thomas Jech},
+  Publisher                = {Springer-Verlag Berlin Heidelberg},
+  Year                     = {2003},
+}
+
+@Book{Oksendal2003,
+  Title                    = {Stochastic differential equations},
+  Author                   = {{\O}ksendal, Bernt},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2003},
+
+  Address                  = {Berlin},
+  Edition                  = {Sixth},
+  Note                     = {An introduction with applications},
+  Series                   = {Universitext},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Oksendal.Stochastic differential equations An introduction with applications.6th edition.2003..djvu:Djvu},
+  ISBN                     = {3-540-04758-1},
+  Mrclass                  = {60H10 (60G44 60J60)},
+  Mrnumber                 = {MR2001996 (2004e:60102)},
+  Owner                    = {tapir},
+  Pages                    = {xxiv+360},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Oksendal2005,
+  Title                    = {Applied stochastic control of jump diffusions},
+  Author                   = {{\O}ksendal, Bernt and Sulem, Agn{\`e}s},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2005},
+
+  Address                  = {Berlin},
+  Series                   = {Universitext},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Oksendal+Sulem.Applied Stochastic Control of Jump Diffusions.1st edition.2005.pdf:PDF},
+  ISBN                     = {3-540-14023-9},
+  Mrclass                  = {93-02 (60G40 91B28 93E03)},
+  Mrnumber                 = {MR2109687 (2005i:93003)},
+  Mrreviewer               = {Jean Picard},
+  Owner                    = {tapir},
+  Pages                    = {x+208},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{aczel01,
+  Title                    = {{Functional Equations in Several Variables}},
+  Author                   = {Acz{\'e}l, J. and Dhombres, Jean G.},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1989},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2009.06.07}
+}
+
+@Book{aliprantis01,
+  Title                    = {{Infinite Dimensional Analysis: a Hitchhiker's Guide}},
+  Author                   = {Aliprantis, C.D. and Border, K.C.},
+  Publisher                = {Springer Verlag},
+  Year                     = {2006}
+}
+
+@Book{Athreya2006,
+  Title                    = {Measure theory and probability theory},
+  Author                   = {Athreya, Krishna B. and Lahiri, Soumendra N.},
+  Publisher                = {Springer},
+  Year                     = {2006},
+
+  Address                  = {New York},
+  Series                   = {Springer Texts in Statistics},
+
+  File                     = {/home/tapir/Math/Books/Probability/Athreya+Lahiri.Measure Theory and Probability Theory.2006.pdf:PDF},
+  ISBN                     = {978-0387-32903-1; 0-387-32903-X},
+  Mrclass                  = {60-01 (28Axx 60E05 60F05 60G05 60J05 60K05)},
+  Mrnumber                 = {MR2247694 (2007f:60001)},
+  Mrreviewer               = {Rimas Norvai{\v{s}}a},
+  Owner                    = {tapir},
+  Pages                    = {xviii+618},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{aubin01,
+  Title                    = {{Optima and Equilibra. An Introduction to Nonlinear Analysis}},
+  Author                   = {Aubin, Jean- Pierre},
+  Publisher                = {Springer},
+  Year                     = {1998},
+
+  Address                  = {Berlin, New York},
+  Edition                  = {2},
+
+  Owner                    = {tapir},
+  Timestamp                = {2006.03.31}
+}
+
+@Book{Back2004,
+  Title                    = {Stochastic methods in finance},
+  Author                   = {Back, K. and Bielecki, T. R. and Hipp, C. and Peng, S. and Schachermayer, W.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2004},
+
+  Address                  = {Berlin},
+  Note                     = {Lectures from the C.I.M.E.-E.M.S. Summer School held in Bressanone/Brixen, June 6--12, 2003, Edited by M. Frittelli and W. Runggaldier, Fondazione C.I.M.E.. [C.I.M.E. Foundation]},
+  Series                   = {Lecture Notes in Mathematics},
+  Volume                   = {1856},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Back+Bielecki+Hipp+Peng+Schachermayer.Stochastic Methods In Finance.2004.pdf:PDF},
+  ISBN                     = {3-540-22953-1},
+  Mrclass                  = {91-06 (60-06 91-01 91B28 91B30)},
+  Mrnumber                 = {MR2115818 (2005h:91003)},
+  Owner                    = {tapir},
+  Pages                    = {xiv+306},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Bailey1964,
+  Title                    = {The elements of stochastic processes with applications to the natural sciences},
+  Author                   = {Bailey, Norman T. J.},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1964},
+
+  Address                  = {New York},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Bailey.The elements of stoc Proc.1964.djvu:Djvu},
+  Mrclass                  = {60.00 (60.90)},
+  Mrnumber                 = {MR0165572 (29 \#2852)},
+  Mrreviewer               = {D. G. Kendall},
+  Owner                    = {tapir},
+  Pages                    = {xi+249},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{BainCrisan,
+  Title                    = {{Fundamentals of Stochastic Filtering}},
+  Author                   = {Alain Bain and Dan Crisan},
+  Publisher                = {Springer},
+  Year                     = {2009},
+
+  Owner                    = {christoph},
+  Timestamp                = {2011.05.19}
+}
+
+@Book{baire01,
+  Title                    = {{Le\c{c}on sur les Fonctions Discontinues Profess\'ees au Coll{\`e}ge de France}},
+  Author                   = {Baire, Ren{\'e}},
+  Publisher                = {Gauthier Villars},
+  Year                     = {1905},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2009.06.08}
+}
+@Book{barrieu01,
+  Title                    = {{Pricing, Hedging and Optimally Designing Derivatives via Minimization of Risk Measures}},
+  Author                   = {Barrieu, Pauline and El Karoui, Nicole},
+  Editor                   = {Rene Carmona},
+  Publisher                = {Volume on Indifference Pricing (ed. Rene Carmona), Princeton University Press},
+  Year                     = {2009},
+
+  File                     = {Barrieu El Karoui.pdf:/home/tapir/Math/Artikel/Barrieu El Karoui.pdf:PDF},
+  Owner                    = {tapir},
+  Timestamp                = {2007.05.15}
+}
+
+@Book{Bellman1973,
+  Title                    = {Methods of nonliner analysis. {V}ol. {II}},
+  Author                   = {Bellman, Richard},
+  Publisher                = {Academic Press},
+  Year                     = {1973},
+
+  Address                  = {New York},
+  Note                     = {Mathematics in Science and Engineering, Vol. 61-II},
+
+  File                     = {/home/tapir/Math/Books/analysis/Bellman.Methods of nonlinear analysis (Vol. 2).djvu:Djvu},
+  Mrclass                  = {69.00 (65N99)},
+  Mrnumber                 = {MR0381408 (52 \#2305)},
+  Mrreviewer               = {G. D. Byrne},
+  Owner                    = {tapir},
+  Pages                    = {xvii+261},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Bellman1970,
+  Title                    = {Methods of nonlinear analysis. {V}ol. 1},
+  Author                   = {Bellman, Richard},
+  Publisher                = {Academic Press},
+  Year                     = {1970},
+
+  Address                  = {New York},
+  Series                   = {Mathematics in Science and Engineering, Vol. 61-I},
+
+  File                     = {/home/tapir/Math/Books/analysis/Bellman.Methods of nonlinear analysis (Vol. 1).djvu:Djvu},
+  Mrclass                  = {34.00 (69.00)},
+  Mrnumber                 = {MR0254299 (40 \#7508)},
+  Mrreviewer               = {G. D. Byrne},
+  Owner                    = {tapir},
+  Pages                    = {xx+340},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Bellman1957,
+  Title                    = {Dynamic programming},
+  Author                   = {Bellman, Richard},
+  Publisher                = {Princeton Univeristy Press, Princeton, N. J.},
+  Year                     = {1957},
+
+  File                     = {/home/tapir/Math/Books/analysis/Bellman.Dynamic Programming.1972.djvu:Djvu},
+  Mrclass                  = {90.0X},
+  Mrnumber                 = {MR0090477 (19,820d)},
+  Mrreviewer               = {J. Kiefer},
+  Owner                    = {tapir},
+  Pages                    = {xxv+342},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Benth2004,
+  Title                    = {Option theory with stochastic analysis},
+  Author                   = {Benth, Fred Espen},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2004},
+
+  Address                  = {Berlin},
+  Note                     = {An introduction to mathematical finance, Revised edition of the 2001 Norwegian original},
+  Series                   = {Universitext},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Benth.Option Theory with Stochastic Analysis.2004.pdf:PDF},
+  ISBN                     = {3-540-40502-X},
+  Mrclass                  = {91-01 (60H05 60H10 60H30 91B28)},
+  Mrnumber                 = {MR2043196 (2004k:91001)},
+  Owner                    = {tapir},
+  Pages                    = {x+162},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Bichteler2002,
+  Title                    = {Stochastic integration with jumps},
+  Author                   = {Bichteler, Klaus},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2002},
+
+  Address                  = {Cambridge},
+  Series                   = {Encyclopedia of Mathematics and its Applications},
+  Volume                   = {89},
+
+  Comment                  = {There is a file zip attached with exercises and solutions},
+  File                     = {/home/tapir/Math/Books/stochastic/Bichteler.Stochastic Integration with Jumps.2002.pdf:PDF},
+  ISBN                     = {0-521-81129-5},
+  Mrclass                  = {60-02 (60G44 60H05 60H10)},
+  Mrnumber                 = {MR1906715 (2003d:60002)},
+  Mrreviewer               = {Dominique L{\'e}pingle},
+  Owner                    = {tapir},
+  Pages                    = {xiv+501},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Bichteler1987,
+  Title                    = {Malliavin calculus for processes with jumps},
+  Author                   = {Bichteler, Klaus and Gravereaux, Jean-Bernard and Jacod, Jean},
+  Publisher                = {Gordon and Breach Science Publishers},
+  Year                     = {1987},
+
+  Address                  = {New York},
+  Series                   = {Stochastics Monographs},
+  Volume                   = {2},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Bichteler+Gravereux+jacod.Malliavin calculus for processes with jumps.1987.pdf:PDF},
+  ISBN                     = {2-88124-185-9},
+  Mrclass                  = {60H07},
+  Mrnumber                 = {MR1008471 (90h:60056)},
+  Mrreviewer               = {R{\'e}mi L{\'e}andre},
+  Owner                    = {tapir},
+  Pages                    = {x+161},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Billingsley1999,
+  Title                    = {Convergence of probability measures},
+  Author                   = {Billingsley, Patrick},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1999},
+
+  Address                  = {New York},
+
+  File                     = {/home/tapir/Math/Books/Probability/Billingsley.1968.Convergence of probability measures.djvu:Djvu},
+  Mrclass                  = {60.30},
+  Mrnumber                 = {MR0233396 (38 \#1718)},
+  Mrreviewer               = {M. M. Siddiqui},
+  Owner                    = {tapir},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Billingsley1986,
+  Title                    = {Probability and measure},
+  Author                   = {Billingsley, Patrick},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1986},
+
+  Address                  = {New York},
+  Edition                  = {Second},
+  Series                   = {Wiley Series in Probability and Mathematical Statistics: Probability and Mathematical Statistics},
+
+  File                     = {/home/tapir/Math/Books/Probability/Billingsley.Probability and Measure.1986.pdf:PDF},
+  ISBN                     = {0-471-80478-9},
+  Mrclass                  = {60-01 (28-01)},
+  Mrnumber                 = {MR830424 (87f:60001)},
+  Owner                    = {tapir},
+  Pages                    = {xiv+622},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Birman1987,
+  Title                    = {Spectral theory of selfadjoint operators in {H}ilbert space},
+  Author                   = {Birman, M. Sh. and Solomjak, M. Z.},
+  Publisher                = {D. Reidel Publishing Co.},
+  Year                     = {1987},
+
+  Address                  = {Dordrecht},
+  Note                     = {Translated from the 1980 Russian original by S. Khrushch\"ev and V. Peller},
+  Series                   = {Mathematics and its Applications (Soviet Series)},
+
+  File                     = {/home/tapir/Math/Books/analysis/Birman+Solomyak.Spectral theory of self adjoint operators in Hilbert spaces.1987.djvu:Djvu},
+  ISBN                     = {90-277-2179-3},
+  Mrclass                  = {47-01 (47A10 47B25)},
+  Mrnumber                 = {MR1192782 (93g:47001)},
+  Owner                    = {tapir},
+  Pages                    = {xv+301},
+  Timestamp                = {2008.02.19}
+}
+@Book{Borwein1995,
+  Title                    = {Polynomials and polynomial inequalities},
+  Author                   = {Borwein, Peter and Erd{\'e}lyi, Tam{\'a}s},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1995},
+
+  Address                  = {New York},
+  Series                   = {Graduate Texts in Mathematics},
+  Volume                   = {161},
+
+  File                     = {/home/tapir/Math/Books/analysis/Borwein+Erdelyi.Polynomials_and_Polynomial_Inequalities.pdf:PDF},
+  ISBN                     = {0-387-94509-1},
+  Mrclass                  = {41-02 (00A07 12-02 26-02 30-02 30C15 41A17)},
+  Mrnumber                 = {MR1367960 (97e:41001)},
+  Mrreviewer               = {D. S. Lubinsky},
+  Owner                    = {tapir},
+  Pages                    = {x+480},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{bruckner01,
+  Title                    = {{Differentiation of Real Functions}},
+  Author                   = {Bruckner, Andrew},
+  Publisher                = {Oxford University Press},
+  Year                     = {1994},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2009.06.08}
+}
+
+
+@Book{Capi'nski2003,
+  Title                    = {Mathematics for finance},
+  Author                   = {Capi{\'n}ski, Marek and Zastawniak, Tomasz},
+  Publisher                = {Springer-Verlag London Ltd.},
+  Year                     = {2003},
+
+  Address                  = {London},
+  Note                     = {An introduction to financial engineering},
+  Series                   = {Springer Undergraduate Mathematics Series},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Capinski+Zastawniak.Mathematics for Finance - An Introduction to Financial Engineering.2004.pdf:PDF},
+  ISBN                     = {1-85233-330-8},
+  Mrclass                  = {91-01 (91B28)},
+  Mrnumber                 = {MR1990719 (2004f:91001)},
+  Owner                    = {tapir},
+  Pages                    = {x+310},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Cerrai2001,
+  Title                    = {Second order {PDE}'s in finite and infinite dimension},
+  Author                   = {Cerrai, Sandra},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2001},
+
+  Address                  = {Berlin},
+  Note                     = {A probabilistic approach},
+  Series                   = {Lecture Notes in Mathematics},
+  Volume                   = {1762},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Cerrai.Second order PDEs in finite and infinite dimensions.2001.djvu:Djvu},
+  ISBN                     = {3-540-42136-X},
+  Mrclass                  = {35R60 (35K57 47H20 47N20 60H10 60H15 60J35)},
+  Mrnumber                 = {MR1840644 (2002j:35327)},
+  Mrreviewer               = {Krystyna Twardowska},
+  Owner                    = {tapir},
+  Pages                    = {x+330},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Chen2002,
+  Title                    = {Stochastic approximation and its applications},
+  Author                   = {Chen, Han-Fu},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Dordrecht},
+  Series                   = {Nonconvex Optimization and its Applications},
+  Volume                   = {64},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Chen.Stochastic Approximation and Its Applications.2002.pdf:PDF},
+  ISBN                     = {1-4020-0806-6},
+  Mrclass                  = {62-02 (62L20 90C15 93B40)},
+  Mrnumber                 = {MR1942427 (2004f:62005)},
+  Mrreviewer               = {G. Pflug},
+  Owner                    = {tapir},
+  Pages                    = {xvi+357},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Cont2004,
+  Title                    = {{Financial Modelling with Jump Processes}},
+  Author                   = {Cont, Rama and Tankov, Peter},
+  Publisher                = {Chapman \& Hall/CRC, Boca Raton, FL},
+  Year                     = {2004},
+  Series                   = {Chapman \& Hall/CRC Financial Mathematics Series},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Cont+Tankov.Finance modelling with jump processes.2004.djvu:Djvu},
+  ISBN                     = {1-5848-8413-4},
+  Mrclass                  = {91-02 (60J75 91B28 91B84)},
+  Mrnumber                 = {MR2042661 (2004m:91004)},
+  Owner                    = {tapir},
+  Pages                    = {xvi+535},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Conway1985,
+  Title                    = {{A Course in Functional Analysis}},
+  Author                   = {Conway, John B.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1985},
+
+  Address                  = {New York},
+  Series                   = {Graduate Texts in Mathematics},
+  Volume                   = {96},
+
+  File                     = {/home/tapir/Math/Books/analysis/Conway.A Course in Functional Analysis.1985.djvu:Djvu},
+  ISBN                     = {0-387-96042-2},
+  Mrclass                  = {46-01 (47-01)},
+  Mrnumber                 = {MR768926 (86h:46001)},
+  Mrreviewer               = {Greg Robel},
+  Owner                    = {tapir},
+  Pages                    = {xiv+404},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{DanaJeanblanc01,
+  Title                    = {{Financial Markets in Continuous Time}},
+  Author                   = {Rose-Anne Dana and Monique Jeanblanc},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2002},
+
+  Address                  = {Berlin},
+
+  Owner                    = {christoph},
+  Timestamp                = {2011.10.10}
+}
+
+@Book{Debreu1959,
+  Title                    = {{Theory of Value: an Axiomatic Analysis of Economic Equilibrium}},
+  Author                   = {Debreu, Gerard},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1959},
+
+  Address                  = {New York},
+  Series                   = {Cowles Foundation for Research in Economics at Yale University, Monograph 17},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Debreu.Theory of value.pdf:PDF},
+  Mrclass                  = {90.00},
+  Mrnumber                 = {MR0110571 (22 \#1447)},
+  Mrreviewer               = {T. Haavelmo},
+  Owner                    = {tapir},
+  Pages                    = {xii+114},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Delbaen00,
+  Title                    = {{Coherent Utility Functions}},
+  Author                   = {Delbaen, Freddy},
+  Publisher                = {Pretoria Lecture Notes},
+  Year                     = {2003},
+
+  Owner                    = {kupper},
+  Timestamp                = {2009.08.02}
+}
+
+@Book{Delbaen2006,
+  Title                    = {{The Mathematics of Arbitrage}},
+  Author                   = {Delbaen, Freddy and Schachermayer, Walter},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2006},
+
+  Address                  = {Berlin},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Delbaen+Sachermayer.The Mathematics of Arbitrage.2006.pdf:PDF:},
+  Mrclass                  = {91-02 (60H10 60H30 91B28)},
+  Mrnumber                 = {MR2200584 (2007a:91001)},
+  Mrreviewer               = {Angelos Dassios},
+  Owner                    = {tapir},
+  Timestamp                = {2008.02.19}
+}
+@Book{Dellacherie1982,
+  Title                    = {{Probabilities and Potential. B}},
+  Author                   = {Dellacherie, Claude and Meyer, Paul Andr{\'e}},
+  Publisher                = {North-Holland Publishing Co.},
+  Year                     = {1982},
+
+  Address                  = {Amsterdam},
+  Series                   = {North-Holland Mathematics Studies},
+  Volume                   = {72},
+
+  File                     = {/home/tapir/Math/Books/Probability/Dellacherie+Meyer.1982.Probabilities and Potential B.pdf:PDF},
+  Mrclass                  = {60-02 (31-02 60Gxx 60H05)},
+  Mrnumber                 = {MR745449 (85e:60001)},
+  Owner                    = {tapir},
+  Pages                    = {xvii+463},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Dellacherie1978,
+  Title                    = {{Probabilities and Potential. A}},
+  Author                   = {Dellacherie, Claude and Meyer, Paul-Andr{\'e}},
+  Publisher                = {North-Holland Publishing Co.},
+  Year                     = {1978},
+
+  Address                  = {Amsterdam},
+  Series                   = {North-Holland Mathematics Studies},
+  Volume                   = {29},
+
+  File                     = {/home/tapir/Math/Books/Probability/Dellacherie+meyer.1978.Probabilities and Potential A.pdf:PDF},
+  ISBN                     = {0-7204-0701-X},
+  Mrclass                  = {60-02 (28-02 31-02)},
+  Mrnumber                 = {MR521810 (80b:60004)},
+  Owner                    = {tapir},
+  Pages                    = {viii+189},
+  Timestamp                = {2008.02.19}
+}
+
+
+
+@Book{doob,
+  Title                    = {Stochastic {P}rocesses},
+  Author                   = {Joseph L. Doob},
+  Publisher                = {Wiley Classics Library},
+  Year                     = {1990},
+
+  __markedentry            = {[christoph]},
+  Date-added               = {2010-10-19 18:29:01 +0200},
+  Date-modified            = {2010-10-19 18:29:46 +0200},
+  Owner                    = {christoph},
+  Timestamp                = {2010.12.07}
+}
+
+@Book{Doob1953,
+  Title                    = {{Stochastic Processes}},
+  Author                   = {Doob, J. L.},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1953},
+
+  Address                  = {New York},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Doob.1953.Stochastic_Processes.djvu:Djvu},
+  Mrclass                  = {60.0X},
+  Mrnumber                 = {MR0058896 (15,445b)},
+  Mrreviewer               = {D. G. Kendall},
+  Owner                    = {tapir},
+  Pages                    = {viii+654},
+  Timestamp                = {2008.02.19}
+}
+
+
+
+@Book{dudley01,
+  Title                    = {{Real Analysis and Probability}},
+  Author                   = {Dudley, R. M.},
+  Publisher                = {Wadsworth \& Brooks / Cole, Belmont, CA.},
+  Year                     = {1989}
+}
+@Book{duffie1988,
+  Title                    = {{Security Markets: SStochastic Models}},
+  Author                   = {Duffie, Darrell},
+  Publisher                = {Academic Press Inc.},
+  Year                     = {1988},
+
+  Address                  = {Boston, MA},
+  Note                     = {Stochastic models},
+  Series                   = {Economic Theory, Econometrics, and Mathematical Economics},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Duffie.Security markets stochastic models.pdf:PDF},
+  ISBN                     = {0-12-223345-X},
+  Mrclass                  = {90A09 (60J99 90A16)},
+  Mrnumber                 = {MR955269 (90c:90021)},
+  Mrreviewer               = {Lars Tyge Nielsen},
+  Owner                    = {tapir},
+  Pages                    = {xx+358},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{dunford01,
+  Title                    = {{Linear Operators. Part I: General Theory}},
+  Author                   = {Dunford, Nelson and Schwartz, Jacob T.},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {1988},
+  Edition                  = {Wiley Classics Library Edition},
+
+  Optnote                  = {SK 620 D915 -1}
+}
+
+@Book{Dupavcov'a2002,
+  Title                    = {{Stochastic modeling in economics and finance}},
+  Author                   = {Dupa{\v{c}}ov{\'a}, Jitka and Hurt, Jan and {\v{S}}t{\v{e}}p{\'a}n, Josef},
+  Publisher                = {Kluwer Academic Publishers},
+  Year                     = {2002},
+
+  Address                  = {Dordrecht},
+  Note                     = {With a preface by V. Dupa\v c},
+  Series                   = {Applied Optimization},
+  Volume                   = {75},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Dupacova+Hurt+Stepan.Stochastic Modeling in Economics and Finance.2002.pdf:PDF;/home/tapir/Math/Books/finance+economics/Dupacova+Hurt+Stochastic Modeling in Economics and Finance.pdf:PDF},
+  ISBN                     = {1-4020-0840-6},
+  Mrclass                  = {91-02 (91B28 91B70)},
+  Mrnumber                 = {MR2008457 (2004f:91002)},
+  Mrreviewer               = {George Stoica},
+  Owner                    = {tapir},
+  Pages                    = {xiv+386},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{ekeland01,
+  Title                    = {{Analyse Convexe et Probl\`emes Variationnels}},
+  Author                   = {Ekeland, Ivar and Temam, Roger},
+  Publisher                = {Dunod Gauthier-Villars},
+  Year                     = {1974},
+
+  Address                  = {Paris, Bruxelles, Montr\'eal},
+
+  Owner                    = {tapir},
+  Timestamp                = {2006.04.01}
+}
+
+
+
+@Book{Evans1998,
+  Title                    = {{Partial Differential Equations}},
+  Author                   = {Evans, Lawrence C.},
+  Publisher                = {American Mathematical Society},
+  Year                     = {1998},
+
+  Address                  = {Providence, RI},
+  Series                   = {Graduate Studies in Mathematics},
+  Volume                   = {19},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/evans.1998.partial_differential_equations.djvu:Djvu},
+  ISBN                     = {0-8218-0772-2},
+  Mrclass                  = {35-01},
+  Mrnumber                 = {MR1625845 (99e:35001)},
+  Mrreviewer               = {Luigi Rodino},
+  Owner                    = {tapir},
+  Pages                    = {xviii+662},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{foellmer01,
+  Title                    = {{Stochastic Finance. An Introduction in Discrete Time}},
+  Author                   = {F\"{o}llmer, Hans and Schied,Alexander},
+  Publisher                = {Walter de Gruyter},
+  Year                     = {2011},
+
+  Address                  = {Berlin, New York},
+  Edition                  = {3rd},
+  Series                   = {de Gruyter Studies in Mathematics},
+
+  Optnote                  = {SK-980 F 654 +7},
+  Owner                    = {christoph}
+}
+
+@Book{Feller1971,
+  Title                    = {{An Introduction to Probability Theory and its Applications.}},
+  Author                   = {Feller, William},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1971},
+
+  Address                  = {New York},
+  Series                   = {Second edition},
+  Volume                   = {II},
+
+  File                     = {/home/tapir/Math/Books/Probability/Feller.An Introduction to Probability Theory Vol 2.1971.djvu:Djvu},
+  Mrclass                  = {60.00},
+  Mrnumber                 = {MR0270403 (42 \#5292)},
+  Owner                    = {tapir},
+  Pages                    = {xxiv+669},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Feller1968,
+  Title                    = {{An Introduction to Probability Theory and its Applications.}},
+  Author                   = {Feller, William},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1968},
+
+  Address                  = {New York},
+  Series                   = {Third edition},
+  Volume                   = {I},
+
+  File                     = {/home/tapir/Math/Books/Probability/Feller.An Introduction to Probability Theory Vol 1.1968.djvu:Djvu},
+  Mrclass                  = {60.00},
+  Mrnumber                 = {MR0228020 (37 \#3604)},
+  Mrreviewer               = {J. G. Wendel},
+  Owner                    = {tapir},
+  Pages                    = {xviii+509},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Feynman1965,
+  Title                    = {The {F}eynman lectures on physics. {V}ol. 3: {Q}uantum mechanics},
+  Author                   = {Feynman, Richard P. and Leighton, Robert B. and Sands, Matthew},
+  Publisher                = {Addison-Wesley Publishing Co., Inc., Reading, Mass.-London},
+  Year                     = {1965},
+
+  Mrclass                  = {69.00 (81.00)},
+  Mrnumber                 = {MR0213079 (35 \#3944)},
+  Mrreviewer               = {T. J. M. Boyd},
+  Owner                    = {tapir},
+  Pages                    = {x+365 pp. (not consecutively paged)},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Feynman1964,
+  Title                    = {The {F}eynman lectures on physics. {V}ol. 2: {M}ainly electromagnetism and matter},
+  Author                   = {Feynman, Richard P. and Leighton, Robert B. and Sands, Matthew},
+  Publisher                = {Addison-Wesley Publishing Co., Inc., Reading, Mass.-London},
+  Year                     = {1964},
+
+  Mrclass                  = {69.00 (78.00)},
+  Mrnumber                 = {MR0213078 (35 \#3943)},
+  Mrreviewer               = {T. J. M. Boyd},
+  Owner                    = {tapir},
+  Pages                    = {xii+569 pp. (not consecutively paged)},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Feynman1963,
+  Title                    = {The {F}eynman lectures on physics. {V}ol. 1: {M}ainly mechanics, radiation, and heat},
+  Author                   = {Feynman, Richard P. and Leighton, Robert B. and Sands, Matthew},
+  Publisher                = {Addison-Wesley Publishing Co., Inc., Reading, Mass.-London},
+  Year                     = {1963},
+
+  Mrclass                  = {69.00 (70.00)},
+  Mrnumber                 = {MR0213077 (35 \#3942)},
+  Mrreviewer               = {T. J. M. Boyd},
+  Owner                    = {tapir},
+  Pages                    = {xii+513 pp. (not consecutively paged)},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Fili,
+  Title                    = {Term {S}tructure {M}odels - {A} {G}raduate {C}ourse},
+  Author                   = {Damir Filipovic},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2009},
+
+  Address                  = {Berlin},
+
+  __markedentry            = {[christoph]},
+  Date-added               = {2010-10-12 15:32:33 +0200},
+  Date-modified            = {2010-10-12 15:44:35 +0200},
+  Owner                    = {christoph},
+  Timestamp                = {2010.12.07}
+}
+
+
+
+@Book{fishburn01,
+  Title                    = {{Nonlinear Preference and Utility Theory}},
+  Author                   = {{P.C}. Fishburn},
+  Publisher                = {Johns Hopkins University Press, Baltimore},
+  Year                     = {1988}
+}
+
+@Book{fishburn02,
+  Title                    = {{The Foundations of Expected Utility}},
+  Author                   = {Fishburn, Peter C.},
+  Publisher                = {D. Reidel Publishing},
+  Year                     = {1982},
+
+  Address                  = {Dordrecht}
+}
+
+@Book{Friedman1976,
+  Title                    = {Stochastic differential equations and applications. {V}ol. 2},
+  Author                   = {Friedman, Avner},
+  Publisher                = {Academic Press [Harcourt Brace Jovanovich Publishers]},
+  Year                     = {1976},
+
+  Address                  = {New York},
+  Note                     = {Probability and Mathematical Statistics, Vol. 28},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Friedman.Stochastic Differential Equations And Applications Vol 2.pdf:PDF},
+  Mrclass                  = {60H10 (60J60 93E05)},
+  Mrnumber                 = {MR0494491 (58 \#13350b)},
+  Mrreviewer               = {D. Kannan},
+  Owner                    = {tapir},
+  Pages                    = {xiii+pp. 229--528},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Friedman1975,
+  Title                    = {Stochastic differential equations and applications. {V}ol. 1},
+  Author                   = {Friedman, Avner},
+  Publisher                = {Academic Press [Harcourt Brace Jovanovich Publishers]},
+  Year                     = {1975},
+
+  Address                  = {New York},
+  Note                     = {Probability and Mathematical Statistics, Vol. 28},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Friedman.Stochastic Differential Equations And Applications Vol 1.pdf:PDF},
+  Mrclass                  = {60H10 (60J60)},
+  Mrnumber                 = {MR0494490 (58 \#13350a)},
+  Mrreviewer               = {D. Kannan},
+  Owner                    = {tapir},
+  Pages                    = {xiii+231},
+  Timestamp                = {2008.02.19}
+}
+
+
+
+@Book{galassi01,
+  Title                    = {{Gnu Scientific Library: Reference Manual}},
+  Author                   = {Galassi, Mark and Davies, Jim and Theiler, James and Gough, Brian and Jungman, Gerard and Booth, Michael and Rossi, Fabrice },
+  Publisher                = {Network Theory Ltd.},
+  Year                     = {2003},
+  Month                    = {February},
+
+  Abstract                 = {The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers. It provides over 1,000 routines for solving mathematical problems in science and engineering. Written by the developers of GSL this reference manual is the definitive guide to the library. <P>The GNU Scientific Library is free software, distributed under the GNU General Public License (GPL). It is available for GNU (GNU/Linux), Unix and Microsoft Windows systems. <P>This is the revised and updated second edition of the manual, and corresponds to version 1.6 of the library.},
+  Citeulike-article-id     = {672166},
+  HowPublished             = {Paperback},
+  ISBN                     = {0954161734},
+  Keywords                 = {algorithms informatics software statistics},
+  Priority                 = {1}
+}
+
+
+
+@Book{Glasserman2004,
+  Title                    = {Monte {C}arlo methods in financial engineering},
+  Author                   = {Glasserman, Paul},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2004},
+
+  Address                  = {New York},
+  Note                     = {, Stochastic Modelling and Applied Probability},
+  Series                   = {Applications of Mathematics (New York)},
+  Volume                   = {53},
+
+  File                     = {/home/Tapir/Math/Books/computing+programming\\Glasserman.monte_carlo_methods_in_financial_engineeringpaul.pdf:PDF},
+  ISBN                     = {0-387-00451-3},
+  Mrclass                  = {65C05 (91-02 91B28)},
+  Mrnumber                 = {MR1999614 (2004g:65005)},
+  Mrreviewer               = {Benjamin Jourdain},
+  Owner                    = {tapir},
+  Pages                    = {xiv+596},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{polya01,
+  Title                    = {{Inequalities}},
+  Author                   = {Hardy, G.H. and Littlewood, J.E. and P\'{o}lya, G.},
+  Publisher                = {Cambridge at the University Press},
+  Year                     = {1934},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2010.03.31}
+}
+
+
+
+@Book{ikeda01,
+  Title                    = {{Stochastic Differential Equations and Diffusion Processes}},
+  Author                   = {Ikeda, Nobuyuki and Watanabe, Shinzo},
+  Publisher                = {North-Holland Publ. Co.},
+  Year                     = {1981},
+
+  Address                  = {Amsterdam},
+
+  Owner                    = {tapir}
+}
+
+
+
+@Book{Jacod2003,
+  Title                    = {{Limit Theorems for Stochastic Processes}},
+  Author                   = {Jacod, Jean and Shiryaev, Albert N.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2003},
+
+  Address                  = {Berlin},
+  Edition                  = {Second},
+  Series                   = {Grundlehren der Mathematischen Wissenschaften [Fundamental Principles of Mathematical Sciences]},
+  Volume                   = {288},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Jacod+Shiryaev.2003.Limit Theorems for Stochastic Processes.djvu:Djvu},
+  ISBN                     = {3-540-43932-3},
+  Mrclass                  = {60-02 (60F17 60G48 60H05)},
+  Mrnumber                 = {MR1943877 (2003j:60001)},
+  Mrreviewer               = {Dominique L{\'e}pingle},
+  Owner                    = {tapir},
+  Pages                    = {xx+661},
+  Timestamp                = {2008.02.19}
+}
+
+
+
+@Book{kahneman01,
+  Title                    = {{Choices, Values, and Frames}},
+  Author                   = {Kahneman, Daniel},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2000},
+  Month                    = {September}
+}
+
+@Book{olav01,
+  Title                    = {{Foundations of Modern Probability}},
+  Author                   = {Kallenberg, Olav},
+  Editor                   = {J. Gani, C.C. Heyde, T.G. Kurtz},
+  Publisher                = {Springer Verlag},
+  Year                     = {1997},
+
+  Address                  = {New York, Berlin}
+}
+
+@Book{kallenberg2005,
+  title      = {{Probabilistic Symmetries and Invariance Principles}},
+  publisher  = {Springer},
+  year       = {2005},
+  author     = {Kallenberg, Olav},
+  series     = {Probability and its Applications (New York)},
+  address    = {New York},
+  isbn       = {978-0387-25115-8; 0-387-25115-4},
+  file       = {/home/tapir/Math/Books/Probability/Kallenberg.2005.Probabilistic Symmetries and Invariance Principles.pdf:PDF},
+  mrclass    = {60-02 (60F17 60G09 60G42 60G44)},
+  mrnumber   = {MR2161313 (2006i:60002)},
+  mrreviewer = {Wilfried Hazod},
+  owner      = {tapir},
+  pages      = {xii+510},
+  timestamp  = {2008.02.19},
+}
+
+@Book{kallenberg2002,
+  title     = {{Foundations of Modern Probability}},
+  publisher = {Springer-Verlag},
+  year      = {2002},
+  author    = {Kallenberg, Olav},
+  series    = {Probability and its Applications (New York)},
+  address   = {New York},
+  edition   = {2nd},
+}
+
+@Book{Kannan1979,
+  Title                    = {{An Introduction to Stochastic Processes}},
+  Author                   = {Kannan, D.},
+  Publisher                = {North-Holland},
+  Year                     = {1979},
+
+  Address                  = {New York},
+  Note                     = {North Holland Series in Probability and Applied Mathematics},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Kannan.An introduction to stochastic processes.1979.djvu:Djvu},
+  ISBN                     = {0-444-00301-0},
+  Mrclass                  = {60-01},
+  Mrnumber                 = {MR539142 (81k:60003)},
+  Mrreviewer               = {{\u{I}}. M. Stoyanov},
+  Owner                    = {tapir},
+  Pages                    = {xii+296},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{karshrev,
+  Title                    = {Brownian {M}otion and {S}tochastic {C}alculus},
+  Author                   = {Ioannis Karatzas and Steven Shreve},
+  Publisher                = {Springer},
+  Year                     = {1991},
+
+  __markedentry            = {[christoph]},
+  Date-added               = {2010-10-26 10:34:03 +0200},
+  Date-modified            = {2010-10-26 10:36:13 +0200},
+  Owner                    = {christoph},
+  Timestamp                = {2010.12.07}
+}
+
+@Book{karatzas01,
+  Title                    = {{Brownian Motion and Stochastic Calculus (Graduate Texts in Mathematics)}},
+  Author                   = {Karatzas, Ioannis and Shreve, Steven E. },
+  Publisher                = {Springer},
+  Year                     = {2004},
+  Month                    = {August},
+
+  Abstract                 = {{<P>This book is designed as a text for graduate courses in stochastic processes. It is written for readers familiar with measure-theoretic probability and discrete-time processes who wish to explore stochastic processes in continuous time. The vehicle chosen for this exposition is Brownian motion, which is presented as the canonical example of both a martingale and a Markov process with continuous paths. In this context, the theory of stochastic integration and stochastic calculus is developed. The power of this calculus is illustrated by results concerning representations of martingales and change of measure on Wiener space, and these in turn permit a presentation of recent advances in financial economics (option pricing and consumption/investment optimization). </P> <P>This book contains a detailed discussion of weak and strong solutions of stochastic differential equations and a study of local time for semimartingales, with special emphasis on the theory of Brownian local time. The text is complemented by a large number of problems and exercises.</P>}},
+  Citeulike-article-id     = {1688781},
+  HowPublished             = {Paperback},
+  Keywords                 = {stochastic-calculus},
+  Priority                 = {0}
+}
+
+@Book{Karatzas1998,
+  Title                    = {{Methods of Mathematical Finance}},
+  Author                   = {Karatzas, Ioannis and Shreve, Steven E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1998},
+
+  Address                  = {New York},
+  Series                   = {Applications of Mathematics (New York)},
+  Volume                   = {39},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Karatzas+Shreve.Methods of Mathematical Finance.1998.pdf:PDF},
+  ISBN                     = {0-387-94839-2},
+  Mrclass                  = {91B28 (60G40 60G99 91-02)},
+  Mrnumber                 = {MR1640352 (2000e:91076)},
+  Mrreviewer               = {Marek Rutkowski},
+  Owner                    = {tapir},
+  Pages                    = {xvi+407},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Karatzas1991,
+  Title                    = {{Brownian Motion and Stochastic Calculus}},
+  Author                   = {Karatzas, Ioannis and Shreve, Steven E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1991},
+
+  Address                  = {New York},
+  Edition                  = {2nd},
+  Series                   = {Graduate Texts in Mathematics},
+  Volume                   = {113},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Karatzas+Shreve.Brownian Motion and Stochastic Calculus.1991.pdf:PDF},
+  Mrclass                  = {60J65 (35K99 35R60 60G44 60H10 60J60)},
+  Mrnumber                 = {MR1121940 (92h:60127)},
+  Owner                    = {tapir},
+  Pages                    = {xxiv+470},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Kazamaki01,
+  Title                    = {{Continuous Exponential Martingales and {BMO}}},
+  Author                   = {Kazamaki, Norihiko},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1994},
+
+  Address                  = {Berlin},
+  Series                   = {Lecture Notes in Mathematics},
+  Volume                   = {1579},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Kazamaki.1994.Continuous Exponential Martingales and BMO.pdf:PDF},
+  ISBN                     = {3-540-58042-5},
+  Mrclass                  = {60G44 (46E30 46N30 60G46)},
+  Mrnumber                 = {MR1299529 (95k:60110)},
+  Mrreviewer               = {Dominique L{\'e}pingle},
+  Owner                    = {tapir},
+  Pages                    = {viii+91},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{keynes02,
+  Title                    = {{The General Theory of Employment, Interest and Money}},
+  Author                   = {Keynes, John Maynard},
+  Publisher                = {Macmillan, London},
+  Year                     = {1936}
+}
+
+
+
+@Book{knight01,
+  Title                    = {{Risk, Uncertainty, and Profit}},
+  Author                   = {Frank H. Knight},
+  Publisher                = {Hart, Schaffner {\&} Marx; Houghton Mifflin Company},
+  Year                     = {1921},
+
+  Address                  = {Boston, MA},
+
+  Interhash                = {e0b231cd0b09ea123d24e4f92e8ea47d},
+  Intrahash                = {d38b30740cce608bf6ea1bf829e3ad7e},
+  Owner                    = {murat},
+  Timestamp                = {2009.03.20}
+}
+
+
+
+@Book{Kolmogorov1950,
+  Title                    = {{Foundations of the Theory of Probability}},
+  Author                   = {Kolmogorov, A. N.},
+  Publisher                = {Chelsea Publishing Company, New York, N. Y.},
+  Year                     = {1950},
+
+  File                     = {/home/tapir/Math/Books/Probability/Kolmogorov.1956.Foundations_of_the_Theory_of_Probability.2ed.pdf:PDF},
+  Mrclass                  = {60.0X},
+  Mrnumber                 = {MR0032961 (11,374a)},
+  Owner                    = {tapir},
+  Pages                    = {viii+71},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Kreyszig1989,
+  Title                    = {{Introductory Functional Analysis with Applications}},
+  Author                   = {Kreyszig, Erwin},
+  Publisher                = {John Wiley \& Sons Inc.},
+  Year                     = {1989},
+
+  Address                  = {New York},
+  Series                   = {Wiley Classics Library},
+
+  File                     = {/home/tapir/Math/Books/analysis/kreyszig.Introductort functional analysis with aplications.pdf:PDF},
+  ISBN                     = {0-471-50459-9},
+  Mrclass                  = {46-01 (47-01)},
+  Mrnumber                 = {MR992618 (90m:46003)},
+  Owner                    = {tapir},
+  Pages                    = {xvi+688},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Kunita1990,
+  Title                    = {{Stochastic Flows and Stochastic Differential Equations}},
+  Author                   = {Kunita, Hiroshi},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1990},
+
+  Address                  = {Cambridge},
+  Series                   = {Cambridge Studies in Advanced Mathematics},
+  Volume                   = {24},
+
+  ISBN                     = {0-521-35050-6},
+  Mrclass                  = {60H10 (35R60 60H15)},
+  Mrnumber                 = {MR1070361 (91m:60107)},
+  Mrreviewer               = {Yves Le Jan},
+  Owner                    = {tapir},
+  Pages                    = {xiv+346},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{LiptShir,
+  Title                    = {{Statistics of Random Processes}},
+  Author                   = {Robert Liptser and Albert Shiryaev},
+  Publisher                = {Second edition. Springer, Berlin},
+  Year                     = {2001},
+  Volume                   = {I},
+
+  Owner                    = {christoph},
+  Timestamp                = {2011.03.21}
+}
+
+@Book{Loeve1978,
+  Title                    = {{Probability Theory}},
+  Author                   = {Lo{\`e}ve, Michel},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1978},
+
+  Address                  = {New York},
+  Edition                  = {Fourth},
+  Note                     = {Graduate Texts in Mathematics, Vol. 46},
+  Volume                   = {II},
+
+  File                     = {/home/tapir/Math/Books/Probability/Loeve.Probability theory II.4ed.1978.djvu:Djvu},
+  ISBN                     = {0-387-90262-7},
+  Mrclass                  = {60-02},
+  Mrnumber                 = {MR0651018 (58 \#31324b)},
+  Mrreviewer               = {D. A. Darling},
+  Owner                    = {tapir},
+  Pages                    = {xvi+413},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Loeve1977,
+  Title                    = {{Probability Theory}},
+  Author                   = {Lo{\`e}ve, Michel},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1977},
+
+  Address                  = {New York},
+  Edition                  = {Fourth},
+  Note                     = {Graduate Texts in Mathematics, Vol. 45},
+  Volume                   = {I},
+
+  File                     = {/home/tapir/Math/Books/Probability/Loeve.Probability theory I.4ed.1977.djvu:Djvu},
+  Mrclass                  = {60-02},
+  Mrnumber                 = {MR0651017 (58 \#31324a)},
+  Mrreviewer               = {D. A. Darling},
+  Owner                    = {tapir},
+  Pages                    = {xvii+425},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{luhmann02,
+  Title                    = {{Risk: A Sociological Theory}},
+  Author                   = {Luhmann, Niklas},
+  Publisher                = {Transaction Publishers},
+  Year                     = {2002},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2010.02.01}
+}
+
+@Book{Malliaris1982,
+  Title                    = {{Stochastic Methods in Economics and Finance}},
+  Author                   = {Malliaris, A. G.},
+  Publisher                = {North-Holland Publishing Co.},
+  Year                     = {1982},
+
+  Address                  = {Amsterdam},
+  Note                     = {With a foreword and with contributions by W. A. Brock},
+  Series                   = {Advanced Textbooks in Economics},
+  Volume                   = {17},
+
+  File                     = {/home/tapir/Math/Books/finance+economics/Malliaris.Stochastic methods in economics and finance.1982.pdf:PDF},
+  ISBN                     = {0-444-86201-3},
+  Mrclass                  = {90Axx (90-01)},
+  Mrnumber                 = {MR642839 (83k:90003)},
+  Mrreviewer               = {Richard Kihlstrom},
+  Owner                    = {tapir},
+  Pages                    = {xviii+303},
+  Timestamp                = {2008.02.19}
+}
+
+@Unpublished{Mayer,
+  Title                    = {A {N}ote on the {A}ffine {T}ransform {F}ormula for {A}ffine {D}i usions},
+  Author                   = {Eberhard Mayerhofer},
+  Note                     = {didactic note},
+  Year                     = {(2010)},
+
+  __markedentry            = {[christoph]},
+  Date-added               = {2010-11-17 15:40:07 +0100},
+  Date-modified            = {2010-11-17 15:44:02 +0100},
+  Owner                    = {christoph},
+  Timestamp                = {2010.12.07}
+}
+
+@Book{klement01,
+  Title                    = {{Triangular Norms}},
+  Author                   = {Mesiar, Radko and Pap, Endre and Klement, Erich Peter},
+  Publisher                = {Springer},
+  Year                     = {2000},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2009.06.04}
+}
+
+@Book{Meyn1993,
+  Title                    = {{Markov Chains and Stochastic Stability}},
+  Author                   = {Meyn, S. P. and Tweedie, R. L.},
+  Publisher                = {Springer-Verlag London Ltd.},
+  Year                     = {1993},
+
+  Address                  = {London},
+  Series                   = {Communications and Control Engineering Series},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Meyn+Tweedie.Markov Chains and Stochastic Stability.pdf:PDF},
+  ISBN                     = {3-540-19832-6},
+  Mrclass                  = {60J05},
+  Mrnumber                 = {MR1287609 (95j:60103)},
+  Mrreviewer               = {Esa Nummelin},
+  Owner                    = {tapir},
+  Pages                    = {xvi+ 548},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{namioka01,
+  Title                    = {{Partially Ordered Linear Topological Spaces}},
+  Author                   = {Namioka, Isaac},
+  Editor                   = {Memoirs of the American Mathematical Society, 24.},
+  Publisher                = {Princeton University Press, Princeton},
+  Year                     = {1957},
+
+  Owner                    = {sdrapeau},
+  Timestamp                = {2010.03.05}
+}
+
+@Book{neumann01,
+  Title                    = {{Theory of Games and Economics Behavior}},
+  Author                   = {von Neumann, John and Morgenstern, Oskar},
+  Publisher                = {Princeton University Press},
+  Year                     = {1947},
+  Edition                  = {2nd},
+
+  Owner                    = {tapir},
+  Timestamp                = {2006.05.19}
+}
+
+@Book{nualart01,
+  Title                    = {{The Malliavin Calculus and Related Topics.}},
+  Author                   = {Nualart, David},
+  Editor                   = {New York, NY: Springer-Verlag.},
+  Publisher                = {{Probability and Its Applications}},
+  Year                     = {1995}
+}
+
+@Book{Nualart2006,
+  Title                    = {{The Malliavin Calculus and Related Topics}},
+  Author                   = {Nualart, David},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2006},
+
+  Address                  = {Berlin},
+  Edition                  = {Second},
+  Series                   = {Probability and its Applications (New York)},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Nualart.2006.The Malliavin Calculus and Related Topics.pdf:PDF},
+  ISBN                     = {978-3-540-28328-7; 3-540-28328-5},
+  Mrclass                  = {60-02 (60H07 60H30)},
+  Mrnumber                 = {MR2200233 (2006j:60004)},
+  Mrreviewer               = {Daniel Ocone},
+  Owner                    = {tapir},
+  Pages                    = {xiv+382},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Nualart1995,
+  Title                    = {{The Malliavin Calculus and Related Topics}},
+  Author                   = {Nualart, David},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1995},
+
+  Address                  = {New York},
+  Series                   = {Probability and its Applications (New York)},
+
+  ISBN                     = {0-387-94432-X},
+  Mrclass                  = {60H07 (60-02)},
+  Mrnumber                 = {MR1344217 (96k:60130)},
+  Mrreviewer               = {Daniel Ocone},
+  Owner                    = {tapir},
+  Pages                    = {xii+266},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Olver1974,
+  Title                    = {{Asymptotics and Special Functions}},
+  Author                   = {Olver, F. W. J.},
+  Publisher                = {Academic Press [A subsidiary of Harcourt Brace Jovanovich, Publishers], New York-London},
+  Year                     = {1974},
+  Note                     = {Computer Science and Applied Mathematics},
+
+  File                     = {/home/tapir/Math/Books/analysis/Olver.Assymptotics and special functions.1974.djvu:Djvu},
+  Mrclass                  = {41A60},
+  Mrnumber                 = {MR0435697 (55 \#8655)},
+  Mrreviewer               = {Norman Bleistein},
+  Owner                    = {tapir},
+  Pages                    = {xvi+572},
+  Timestamp                = {2008.02.19}
+}
+
+@PhdThesis{pauwels_diss,
+  Title                    = {{Varianz-optimales Hedging in affinen Volatilit\"atsmodellen}},
+  Author                   = {Arndt Philipp Pauwels},
+  School                   = {TU M\"unchen},
+  Year                     = {2007},
+
+  Owner                    = {christoph},
+  Timestamp                = {2013.12.13}
+}
+
+@Book{Pollard1984,
+  Title                    = {{Convergence of Stochastic Processes}},
+  Author                   = {Pollard, David},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1984},
+
+  Address                  = {New York},
+  Series                   = {Springer Series in Statistics},
+
+  File                     = {/home/tapir/Math/Books/stochastic\\Pollard.convergence of stochastic processes.1984.pdf:PDF},
+  ISBN                     = {0-387-90990-7},
+  Mrclass                  = {60F05 (60B10)},
+  Mrnumber                 = {MR762984 (86i:60074)},
+  Mrreviewer               = {R. M. Dudley},
+  Owner                    = {tapir},
+  Pages                    = {xiv+215},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Polyanin1995,
+  Title                    = {{Handbook of Exact Solutions for Ordinary Differential Equations}},
+  Author                   = {Polyanin, Andrei D. and Zaitsev, Valentin F.},
+  Publisher                = {CRC Press},
+  Year                     = {1995},
+
+  Address                  = {Boca Raton, FL},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Polyanin+Zaitsev.Handbook of Exact solutions for ODEs.1995.djvu:Djvu},
+  ISBN                     = {0-8493-9438-4},
+  Mrclass                  = {34-00 (34A05 34A34)},
+  Mrnumber                 = {MR1396087 (98c:34001)},
+  Owner                    = {tapir},
+  Pages                    = {xii+707},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Pr'evot2007,
+  Title                    = {A concise course on stochastic partial differential equations},
+  Author                   = {Pr{\'e}v{\^o}t, Claudia and R{\"o}ckner, Michael},
+  Publisher                = {Springer},
+  Year                     = {2007},
+
+  Address                  = {Berlin},
+  Series                   = {Lecture Notes in Mathematics},
+  Volume                   = {1905},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Prevot+Rockner.Concise.Course.on.Stochastic.Partial.Differential.Equations-3540707808.pdf:PDF},
+  ISBN                     = {978-3-540-70780-6; 3-540-70780-8},
+  Mrclass                  = {60-01 (60H15)},
+  Mrnumber                 = {MR2329435},
+  Owner                    = {tapir},
+  Pages                    = {vi+144},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{protter,
+  Title                    = {Stochastic {I}ntegration and {D}ifferential {E}quations},
+  Author                   = {Philip E. Protter},
+  Publisher                = {Springer},
+  Year                     = {2005},
+  Edition                  = {2nd},
+
+  __markedentry            = {[christoph]},
+  Date-added               = {2010-10-21 21:46:48 +0200},
+  Date-modified            = {2010-10-21 21:48:39 +0200},
+  Owner                    = {christoph},
+  Timestamp                = {2010.12.07}
+}
+
+@Book{protter01,
+  Title                    = {{Stochastic Integration and Differential Equations}},
+  Author                   = {Protter, Philip E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2005},
+  Edition                  = {2nd},
+
+  File                     = {Protter Stochastic Integration and Differential Equations.djvu:/home/tapir/Math/Books/Protter Stochastic Integration and Differential Equations.djvu:PDF},
+  Owner                    = {tapir},
+  Timestamp                = {2007.01.18}
+}
+
+@Book{rachev01,
+  Title                    = {{Probability Metrics and the Stability of Stochastic Models}},
+  Author                   = {Rachev,S.T.},
+  Publisher                = {John Wiley \& Sons},
+  Year                     = {1991},
+
+  Address                  = {Chichester, New York},
+  Series                   = {Wiley Classics Library Edition},
+
+  Optnote                  = {SK 620 D915 -1}
+}
+
+@Book{yor01,
+  Title                    = {{Continuous martingales and Brownian motion.}},
+  Author                   = {Revuz, Daniel and Yor, Marc},
+  Editor                   = {Springer-Verlag},
+  Publisher                = {{Grundlehren der Mathematischen Wissenschaften}},
+  Year                     = {1998},
+  Edition                  = {3},
+
+  File                     = {Revus Yor Continuous Martingale and Brownian Motion.djvu:/home/tapir/Math/Books/Revus Yor Continuous Martingale and Brownian Motion.djvu:PDF}
+}
+
+@Book{Revuz1999,
+  Title                    = {{Continuous Martingales and Brownian Motion}},
+  Author                   = {Revuz, Daniel and Yor, Marc},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1999},
+
+  Address                  = {Berlin},
+  Edition                  = {3rd},
+  Series                   = {Fundamental Principles of Mathematical Sciences},
+  Volume                   = {293},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Revus-Yor.Continuous Martingales and Brownian Motion.1999.djvu:Djvu;Revus-Yor.Continuous Martingales and Brownian Motion.pdf/home/tapir/Math/Books/stochastic/Revus-Yor.Continuous Martingales and Brownian Motion.1999.pdf:PDF},
+  Mrclass                  = {60G44 (60G07 60H05)},
+  Mrnumber                 = {MR1725357 (2000h:60050)},
+  Owner                    = {tapir},
+  Pages                    = {xiv+602},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{rockafellar01,
+  Title                    = {{Convex Analysis}},
+  Author                   = {Rockafellar, Ralph Tyrrel},
+  Publisher                = {Princeton},
+  Year                     = {1970},
+
+  Address                  = {New Jerzey},
+  Series                   = {Princeton University Press}
+}
+
+@Book{Rockafellar1970,
+  Title                    = {{Convex Analysis}},
+  Author                   = {Rockafellar, R. Tyrrell},
+  Publisher                = {Princeton University Press},
+  Year                     = {1970},
+
+  Address                  = {Princeton, N.J.},
+  Series                   = {Princeton Mathematical Series, No. 28},
+
+  File                     = {/home/tapir/Math/Books/analysis\\R.Tyrrell Rockafellar, Convex Analysis (Princeton Mathematical Series).pdf:PDF},
+  Mrclass                  = {26.52 (46.00)},
+  Mrnumber                 = {MR0274683 (43 \#445)},
+  Mrreviewer               = {Ky Fan},
+  Owner                    = {tapir},
+  Pages                    = {xviii+451},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{rockafellar02,
+  Title                    = {{Variational Analysis}},
+  Author                   = {Rockafellar, Ralph Tyrrel and Wets, Roger J-B},
+  Publisher                = {Springer},
+  Year                     = {1998},
+
+  Address                  = {Berlin, New York},
+
+  Owner                    = {tapir},
+  Timestamp                = {2006.03.31}
+}
+
+@Book{Rogers2000,
+  Title                    = {{Diffusions, Markov processes and Martingales. Vol. 2}},
+  Author                   = {Rogers, L. C. G. and Williams, David},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2000},
+
+  Address                  = {Cambridge},
+  Series                   = {Cambridge Mathematical Library},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Rogers+Williams.Diffusions Markov processes and martingales vol 2.2000.djvu:Djvu},
+  Mrclass                  = {60J60 (60G07 60H05 60J25)},
+  Mrnumber                 = {MR1780932 (2001g:60189)},
+  Owner                    = {tapir},
+  Pages                    = {xiv+480},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Rogers2000a,
+  Title                    = {Diffusions, {M}arkov processes, and martingales. {V}ol. 1},
+  Author                   = {Rogers, L. C. G. and Williams, David},
+  Publisher                = {Cambridge University Press},
+  Year                     = {2000},
+
+  Address                  = {Cambridge},
+  Note                     = {Foundations, Reprint of the second (1994) edition},
+  Series                   = {Cambridge Mathematical Library},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Rogers+Williams.Diffusions Markov processes and martingales vol 1.2000.pdf:PDF},
+  ISBN                     = {0-521-77594-9},
+  Mrclass                  = {60J60 (60G07 60H05 60J25)},
+  Mrnumber                 = {MR1796539 (2001g:60188)},
+  Owner                    = {tapir},
+  Pages                    = {xx+386},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Rudin1991,
+  Title                    = {{Functional Analysis}},
+  Author                   = {Rudin, Walter},
+  Publisher                = {McGraw-Hill Inc.},
+  Year                     = {1991},
+
+  Address                  = {New York},
+  Edition                  = {Second},
+  Series                   = {International Series in Pure and Applied Mathematics},
+
+  File                     = {/home/tapir/Math/Books/analysis/Rudin.Functional Analysis.1991.pdf:PDF},
+  ISBN                     = {0-07-054236-8},
+  Mrclass                  = {46-01 (47-01)},
+  Mrnumber                 = {MR1157815 (92k:46001)},
+  Owner                    = {tapir},
+  Pages                    = {xviii+424},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Rudin1973,
+  Title                    = {{Functional Analysis}},
+  Author                   = {Rudin, Walter},
+  Publisher                = {McGraw-Hill Book Co.},
+  Year                     = {1973},
+
+  Address                  = {New York},
+  Note                     = {McGraw-Hill Series in Higher Mathematics},
+
+  File                     = {/home/tapir/Math/Books/analysis/Rudin.Functional Analysis.1973.djvu:Djvu},
+  Mrclass                  = {46-01},
+  Mrnumber                 = {MR0365062 (51 \#1315)},
+  Mrreviewer               = {F. Smithies},
+  Owner                    = {tapir},
+  Pages                    = {xiii+397},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{sato,
+  Title                    = {L\'evy {P}rocesses and {I}nfinitely {D}ivisible {D}istributions},
+  Author                   = {Ken-Iti Sato},
+  Publisher                = {Cambridge University Press},
+  Year                     = {1999},
+
+  Owner                    = {christoph},
+  Timestamp                = {2011.01.11}
+}
+
+@Book{Savage01,
+  Title                    = {{The foundations of Statistics}},
+  Author                   = {Savage, Leonard J. },
+  Publisher                = {Dover Publications},
+  Year                     = {1972},
+  Edition                  = {2 Revised},
+
+  Citeulike-article-id     = {2526956},
+  Keywords                 = {bibtex-import},
+  Priority                 = {0}
+}
+
+@Book{Schirotzek2007,
+  Title                    = {{Nonsmooth Analysis}},
+  Author                   = {Schirotzek, Winfried},
+  Publisher                = {Springer},
+  Year                     = {2007},
+
+  Address                  = {Berlin},
+  Series                   = {Universitext},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Schirotzek.2007.Non-smooth analysis.pdf:PDF},
+  ISBN                     = {978-3-540-71332-6; 3-540-71332-8},
+  Mrclass                  = {49-01 (49J52 49J53 58Cxx 90C48)},
+  Mrnumber                 = {MR2330778},
+  Owner                    = {tapir},
+  Pages                    = {xii+373},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{shiryaev01,
+  Title                    = {{Probability}},
+  Author                   = {Shiryaev, Albert Nikolayevich},
+  Publisher                = {Springer Verlag},
+  Year                     = {1996},
+
+  Address                  = {Berlin, New York},
+  Edition                  = {2}
+}
+
+@Book{shreve2004,
+  title     = {{Stochastic Calculus for Finance}},
+  publisher = {Springer-Verlag},
+  year      = {2004},
+  author    = {Shreve, Steven E.},
+  volume    = {I},
+  series    = {Springer Finance},
+  address   = {New York},
+  isbn      = {0-387-40100-8},
+  note      = {The binomial asset pricing model},
+  file      = {/home/tapir/Math/Books/finance+economics/Shreve S.E. Stochastic calculus for finance I.. The binomial asset pricing model(Springer, 2004)(ISBN 0387401008)(K)(600dpi)(T)(203s)_MVspf_.djvu:Djvu},
+  mrclass   = {91-01 (60G42 60G50 60J10 91B28)},
+  mrnumber  = {MR2049045 (2004m:91003)},
+  owner     = {tapir},
+  pages     = {xvi+187},
+  timestamp = {2008.02.19},
+}
+
+@Book{hreve2004a,
+  title     = {{Stochastic Calculus for Finance}},
+  publisher = {Springer-Verlag},
+  year      = {2004},
+  author    = {Shreve, Steven E.},
+  volume    = {II},
+  series    = {Springer Finance},
+  address   = {New York},
+  isbn      = {0-387-40101-6},
+  note      = {Continuous-time models},
+  file      = {/home/tapir/Math/Books/finance+economics/Shreve S.E. Stochastic calculus for finance II.. Continuous-time models(Springer, 2004)(ISBN 0387401016)(K)(600dpi)(T)(570s)_MVspf_.djvu:Djvu},
+  mrclass   = {91-01 (60-01 60H10 60H30 91B28)},
+  mrnumber  = {MR2057928 (2005c:91001)},
+  owner     = {tapir},
+  pages     = {xx+550},
+  timestamp = {2008.02.19},
+}
+
+@Book{Situ2005,
+  Title                    = {{Theory of Stochastic Differential Equations with Jumps and Applications}},
+  Author                   = {Situ, Rong},
+  Publisher                = {Springer},
+  Year                     = {2005},
+
+  Address                  = {New York},
+  Note                     = {Mathematical and analytical techniques with applications to engineering},
+  Series                   = {Mathematical and Analytical Techniques with Applications to Engineering},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Situ.Theory of Stochastic Differential Equations with Jumps and Applications.2005.djvu:Djvu},
+  ISBN                     = {978-0387-25083-0; 0-387-25083-2},
+  Mrclass                  = {60-02 (34-02 34F05 60H10 60H30 91B28 93E03)},
+  Mrnumber                 = {MR2160585 (2006e:60004)},
+  Mrreviewer               = {Nicolas Fournier},
+  Owner                    = {tapir},
+  Pages                    = {xx+434},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{SteinWeiss,
+  Title                    = {{Introduction to Fourier analysis on Euclidean spaces}},
+  Author                   = {Elias M. Stein and Guido Weiss},
+  Publisher                = {Princeton University Press, Princeton Mathematical Series, No. 32},
+  Year                     = {1971},
+
+  Owner                    = {christoph},
+  Timestamp                = {2011.01.19}
+}
+
+@Book{Taylor1997,
+  Title                    = {Partial differential equations. {III}},
+  Author                   = {Taylor, Michael E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1997},
+
+  Address                  = {New York},
+  Note                     = {Nonlinear equations, Corrected reprint of the 1996 original},
+  Series                   = {Applied Mathematical Sciences},
+  Volume                   = {117},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Taylor.Partial Differential Equations Vol 3 - Nonlinear Equations.1997.djvu:Djvu},
+  ISBN                     = {0-387-94652-7},
+  Mrclass                  = {35-01 (46N20 47N20 58Gxx)},
+  Mrnumber                 = {MR1477408 (98k:35001)},
+  Mrreviewer               = {Luigi Rodino},
+  Owner                    = {tapir},
+  Pages                    = {xxii+608},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Taylor1996,
+  Title                    = {Partial differential equations. {II}},
+  Author                   = {Taylor, Michael E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1996},
+
+  Address                  = {New York},
+  Note                     = {Qualitative studies of linear equations},
+  Series                   = {Applied Mathematical Sciences},
+  Volume                   = {116},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Taylor.Partial Differential Equations Vol 2 - Qualitative Studies of Linear Equations.1996.djvu:Djvu},
+  ISBN                     = {0-387-94651-9},
+  Mrclass                  = {35-01 (46N20 47N20 58Gxx)},
+  Mrnumber                 = {MR1395149 (98b:35003)},
+  Mrreviewer               = {Luigi Rodino},
+  Owner                    = {tapir},
+  Pages                    = {xxii+528},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Taylor1996a,
+  Title                    = {Partial differential equations. {I}},
+  Author                   = {Taylor, Michael E.},
+  Publisher                = {Springer-Verlag},
+  Year                     = {1996},
+
+  Address                  = {New York},
+  Note                     = {Basic theory},
+  Series                   = {Applied Mathematical Sciences},
+  Volume                   = {115},
+
+  File                     = {/home/tapir/Math/Books/PDE and related/Taylor.Partial Differential Equations Vol 1 - Basic Theory.1996.djvu:Djvu},
+  ISBN                     = {0-387-94653-5},
+  Mrclass                  = {35-01 (46N20 47N20 58Gxx)},
+  Mrnumber                 = {MR1395148 (98b:35002b)},
+  Mrreviewer               = {Luigi Rodino},
+  Owner                    = {tapir},
+  Pages                    = {xxiv+563},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{Touzi_BSDE,
+  Title                    = {{Optimal Stochastic Control, Stochastic Target Problems, and Backward SDEs}},
+  Author                   = {Nizar Touzi},
+  Publisher                = {Springer},
+  Year                     = {2013},
+
+  Owner                    = {christoph},
+  Timestamp                = {2014.03.26}
+}
+
+@Unpublished{sina01,
+  Title                    = {{Update Rules for Convex Risk Measures}},
+  Author                   = {Tutsch, Sina},
+  Note                     = {Working paper},
+  Year                     = {2005}
+}
+
+@Book{whitt01,
+  Title                    = {{Stochastic-Process Limits - An Introduction to Stochastic-Process Limits and Their Application to Queues}},
+  Author                   = {Whitt, Ward},
+  Publisher                = {Springer Verlag, New York, Berlin, Heidelberg},
+  Year                     = {2001},
+
+  Address                  = {Supplement "http://www.columbia.edu/\~{}ww2040/supplement.html"}
+}
+
+@Book{Yor2001,
+  Title                    = {{Exponential Functionals of {B}rownian Motion and Related Processes}},
+  Author                   = {Yor, Marc},
+  Publisher                = {Springer-Verlag},
+  Year                     = {2001},
+
+  Address                  = {Berlin},
+  Note                     = {With an introductory chapter by H\'elyette Geman, Chapters 1, 3, 4, 8 translated from the French by Stephen S. Wilson},
+  Series                   = {Springer Finance},
+
+  File                     = {/home/tapir/Math/Books/stochastic/Yor.Exponential Functionals of Brownian Motion.2001.pdf:PDF},
+  ISBN                     = {3-540-65943-9},
+  Mrclass                  = {60J65 (60J60)},
+  Mrnumber                 = {MR1854494 (2003f:60147)},
+  Owner                    = {tapir},
+  Pages                    = {x+205},
+  Timestamp                = {2008.02.19}
+}
+
+@Book{durret01,
+  title     = {Probability: Theory and Examples},
+  publisher = {Cambridge Series in Statistical and Probabilistic Mathematics},
+  year      = {2010},
+  author    = {Rick Durrett},
+  editor    = {Cambridge University Press},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

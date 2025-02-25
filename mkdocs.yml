@@ -1,0 +1,106 @@
+site_name: Stochastics
+# site_url: http://127.0.0.1:8000/
+
+theme:
+  name: material
+  custom_dir: overrides/
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tabs
+    - navigation.tabs.sticky
+    # - navigation.sections
+    - navigation.indexes
+    # - navigation.expand
+    - toc.follow
+    - toc.integrate
+  palette: #
+    - scheme: slate
+      primary: orange
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light
+    - scheme: default #
+      primary: white
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+  font:
+    text: Roboto Mono
+
+plugins:
+  - search
+  - bibtex:
+      bib_file: "bibliography.bib"
+
+extra:
+  generator: false
+
+nav:
+  - Home: index.md
+  - Lecture:
+      - Introduction:
+          - Notations: lecture/00-Introduction/000-notations.md
+      - Sets, Continuity and Measurability: 
+          - Sets: lecture/01-Sets-Functions/011-sets.md
+          - Measurability, Topology: lecture/01-Sets-Functions/012-class-sets.md
+  #         - Notations: lecture/00-Introduction/001-notations.md
+  #     - One Period Model:
+  #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
+  #         - Arbitrage and Pricing: lecture/01-One-Period/012-arbitrage-pricing.md
+  #         - Derivative Securities: lecture/01-One-Period/013-derivative-securities.md
+  #     - Risk Management:
+  #         - What is Risk: lecture/02-risk-management/021-what-is-risk.md
+  #         - Risk Preferences and Measures: lecture/02-risk-management/022-risk-preferences.md
+  #         - Expected Shortfall: lecture/02-risk-management/023-oce.md
+  #     - Multi Period Model:
+  #         - Multi Period Financial Market: lecture/03-Multi-Period/031-multi-period-financial-markets.md
+  #         - Binomial Model: lecture/03-Multi-Period/032-crr-model.md
+  #         - Exotic Options: lecture/03-Multi-Period/033-exotic-options.md
+  #         - American Options: lecture/03-Multi-Period/034-american-options.md
+  #         - Default Probability: lecture/03-Multi-Period/035-ruin-probability.md
+  # - Math Add On:
+  #     - Probability: material/probability.md
+  #     - Processes: material/stochastic.md
+  # #     - Homework 01: material/hw01.md
+  # #     - Homework 02: material/hw02.md
+  # - Exercises: 
+  #     - One Period Model: material/ex01.md
+  #     - Risk Management: material/ex02.md
+  #     - Multi Period Model: material/ex03.md 
+  #     - Probability and Stochastic Processes: material/ex_math.md 
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - javascripts/node_modules/mathjax/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - footnotes
+  - markdown_tables_extended
+  - attr_list
+  - md_in_html
+  - tables
+  - admonition
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tabbed:
+      alternate_style: true
