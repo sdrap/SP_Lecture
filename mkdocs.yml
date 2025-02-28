@@ -44,7 +44,12 @@ nav:
           - Notations: lecture/00-Introduction/000-notations.md
       - Sets, Continuity and Measurability: 
           - Sets: lecture/01-Sets-Functions/011-sets.md
-          - Measurability, Topology: lecture/01-Sets-Functions/012-class-sets.md
+          - Measurable/Topological Sapces: lecture/01-Sets-Functions/012-measurability-topology.md
+          - Measurability/Continuity: lecture/01-Sets-Functions/013-measurable-continuous-functions.md
+      - Measure Theory, Construction:
+          - Measures: lecture/02-Measure/021-measure.md
+          - From Semi-Ring to Ring: lecture/02-Measure/022-semi-ring-to-ring.md
+          - From Ring to $\sigma$-Algebra: lecture/02-Measure/023-ring-to-s-algebra.md
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md

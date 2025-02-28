@@ -4,7 +4,7 @@ hide:
   - toc
 ---
 
-# Stochastics: Lecture Notes
+# Stochastics
 
 These lecture notes, still a work in progress, are for a course taught at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn), for graduate students.
 

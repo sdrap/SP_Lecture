@@ -159,7 +159,8 @@ Given a function $f:X\to Y$ and subsets $A\subseteq X$ and $B\subseteq Y$, we de
     \end{equation}
     \]
 
-!!! proposition "Proposition"
+<span id="prop-preimage"></span>
+!!! proposition 
     The image and pre-image define functions from $2^X$ to $2^Y$ and $2^Y$ to $2^X$, respectively, with the following properties:
 
     \[
