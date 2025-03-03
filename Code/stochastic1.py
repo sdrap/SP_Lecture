@@ -260,4 +260,143 @@ fig_black.write_image("./../docs/images/stopping_dark.svg")
 fig_white.show()
 
 
+#%%
 
+# Dobb's upcrossing
+
+#%%
+
+# define the symetric random walk
+T =150
+start = 5
+paths = 5
+seed = 159
+
+X = np.arange(T+1)
+Y = random_walk(T, start = start, paths = paths, seed = seed)
+
+# Create the figure
+fig = go.Figure()
+
+for k in range(paths):
+    if k == 1:
+        fig.add_scatter(
+            x=X,
+            y=Y[:, k],
+            mode='lines',
+            name=f"Random walk {k+1}",
+            showlegend=False,
+            line = dict(color = plt_colors[1]),
+        )
+
+
+
+fig.update_layout(template = "plotly_white+draft")
+
+fig.add_hline(
+    y = 8,
+    line_color = plt_colors[2],
+    line_width = 2,
+    line_dash = 'dash',
+    opacity = 0.8,
+)
+
+fig.add_hline(
+    y = 2,
+    line_color = plt_colors[2],
+    line_width = 2,
+    line_dash = 'dash',
+    opacity = 0.8,
+)
+
+fig.add_vline(
+    x = 5,
+    line_color = plt_colors[0],
+    line_width = 2,
+    line_dash = 'dot',
+    opacity = 0.8,
+    annotation_text=r"$\tau_1(\omega)$", 
+    annotation_position="bottom left"
+)
+
+
+fig.add_vline(
+    x = 11,
+    line_color = plt_colors[4],
+    line_width = 2,
+    line_dash = 'dot',
+    opacity = 0.8,
+    annotation_text=r"$\tau_2(\omega)$", 
+    annotation_position="bottom right"
+)
+
+fig.add_vline(
+    x = 33,
+    line_color = plt_colors[0],
+    line_width = 2,
+    line_dash = 'dot',
+    opacity = 0.8,
+    annotation_text=r"$\tau_3(\omega)$", 
+    annotation_position="bottom left"
+)
+
+fig.add_vline(
+    x = 47,
+    line_color = plt_colors[4],
+    line_width = 2,
+    line_dash = 'dot',
+    opacity = 0.8,
+    annotation_text=r"$\tau_4(\omega)$", 
+    annotation_position="bottom left"
+)
+
+fig.add_vline(
+    x = 109,
+    line_color = plt_colors[0],
+    line_width = 2,
+    line_dash = 'dot',
+    opacity = 0.8,
+    annotation_text=r"$\tau_4(\omega)$", 
+    annotation_position="bottom left"
+)
+
+fig.add_vline(
+    x = 150,
+    line_color = "grey",
+    line_width = 2,
+)
+
+
+fig.update_layout(
+    xaxis=dict(
+        showline = False,
+        zeroline = True,
+        showgrid = False,
+        showticklabels = True,
+        tickmode = 'array',
+        tickvals = [150],
+        ticktext = [r'$T$'],
+        range = [-0.2, 150.5]
+        ),
+    yaxis=dict(
+        showline = False,
+        zeroline = True,
+        showgrid = False,
+        tickmode = 'array',
+        tickvals = [2, 5, 8],
+        ticktext = [r"$x$", r"$X_0$", r"$y$"],
+    )
+)
+
+
+fig.show()
+
+fig_white = fig
+fig_black = fig
+
+fig_white.update_layout(template = "plotly_white+draft")
+fig_white.write_image("./../docs/images/upcrossing_white.svg")
+fig_black.update_layout(template = "plotly_dark+draft")
+fig_black.write_image("./../docs/images/upcrossing_dark.svg")
+
+fig_white.show()

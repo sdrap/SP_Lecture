@@ -43,13 +43,30 @@ nav:
       - Introduction:
           - Notations: lecture/00-Introduction/000-notations.md
       - Sets, Continuity and Measurability: 
+          - Introduction: lecture/01-Sets-Functions/010-introduction.md
           - Sets: lecture/01-Sets-Functions/011-sets.md
           - Measurable/Topological Sapces: lecture/01-Sets-Functions/012-measurability-topology.md
           - Measurability/Continuity: lecture/01-Sets-Functions/013-measurable-continuous-functions.md
       - Measure Theory, Construction:
+          - Introduction: lecture/02-Measure/020-introduction.md
           - Measures: lecture/02-Measure/021-measure.md
           - From Semi-Ring to Ring: lecture/02-Measure/022-semi-ring-to-ring.md
           - From Ring to $\sigma$-Algebra: lecture/02-Measure/023-ring-to-s-algebra.md
+      - Expectation:
+          - Introduction/Notations: lecture/03-Integration/030-introduction.md
+          - Expectation, Lebesgue's Convergence: lecture/03-Integration/031-expectation.md
+          - $L^p$-Spaces and Classical Inequalities: lecture/03-Integration/032-lp-spaces-inequalities.md
+          - Radon-Nykodym and Conditional Expectation: lecture/03-Integration/033-radon-nikodym-cond-exp.md
+          - Independence: lecture/03-Integration/034-independence.md
+          - Fubini-Tonelli: lecture/03-Integration/035-fubini-tonelli.md
+          - Uniform Integrability: lecture/03-Integration/036-uniform-integrability.md
+      - Discrete Time Stochastic Processes, Martingales:
+          - Introduction: lecture/04-Martingales/040-introduction.md
+          - Discrete Time Processes: lecture/04-Martingales/041-discrete-time-processes.md
+          - Martingales: lecture/04-Martingales/042-martingale-doob.md
+          - Martingales Almost Sure Convergence: lecture/04-Martingales/043-martingale-as-convergence.md
+          - Martingales $L^p$ Convergence: lecture/04-Martingales/044-martingale-lp-convergence.md
+
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
