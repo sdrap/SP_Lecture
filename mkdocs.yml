@@ -66,7 +66,11 @@ nav:
           - Martingales: lecture/04-Martingales/042-martingale-doob.md
           - Martingales Almost Sure Convergence: lecture/04-Martingales/043-martingale-as-convergence.md
           - Martingales $L^p$ Convergence: lecture/04-Martingales/044-martingale-lp-convergence.md
-
+      - Markov Processes:
+          - Introduction: lecture/05-Markov/050-introduction.md
+          - Markov Processes: lecture/05-Markov/051-markov-extension.md
+          - Markov Chains: lecture/05-Markov/052-markov-discrete.md
+          - Brownian Motion: lecture/05-Markov/053-brownian.md
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
@@ -97,6 +101,8 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
+  # - https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs'
+  # - javascripts/mermaid-config.js
   - javascripts/mathjax.js
   - javascripts/node_modules/mathjax/es5/tex-mml-chtml.js
 
@@ -126,3 +132,10 @@ markdown_extensions:
       generic: true
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+

@@ -67,9 +67,12 @@ In the following, given a process $X$ we define the
         Altogether, with Doob's optional sampling theorem and $X$ being a sub-martingale, we get
 
         \[
-        \begin{equation*}
-           E\left[ X_t \right]\geq E\left[ X_{\tau\wedge t} \right]\geq \lambda P\left[ \overline{X}_t\geq \lambda \right]+E\left[ 1_{\{\tau>t\}} X_t\right]\geq \lambda P\left[ \overline{X}_t\geq \lambda \right]-E\left[ X_t^- \right],
-        \end{equation*}
+        \begin{align*}
+           E\left[ X_t \right]  & = E\left[ E\left[X_t |\mathcal{F}_{t\wedge \tau} \right] \right]\\
+                                & \geq E\left[ X_{\tau\wedge t} \right]\\
+                                & \geq \lambda P\left[ \overline{X}_t\geq \lambda \right]+E\left[ 1_{\{\tau>t\}} X_t\right]\\
+                                & \geq \lambda P\left[ \overline{X}_t\geq \lambda \right]-E\left[ X_t^- \right],
+        \end{align*}
         \]
 
         and conclude the first inequality by observing that, on the one hand, $E[X_t^+]=E[X_t]+E[X_t^-]$, and on the other hand,
