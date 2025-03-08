@@ -257,7 +257,7 @@ We apply the $L^p$-convergence of martingales to show the law of large numbers t
     \end{align*}
     \]
 
-    It follows that $\sup_{t}E\left[ X_t^2 \right]<\infty$ and therefore, by means of Theorem \ref{thm:martingaleconvergenceLp}, it follows that $X_t\to X_\infty$ almost surely and in $L^2$.
+    It follows that $\sup_{t}E\left[ X_t^2 \right]<\infty$ and therefore, by means of martingale convergence theorem, it follows that $X_t\to X_\infty$ almost surely and in $L^2$.
 
 !!! theorem
 
