@@ -19,6 +19,7 @@ In order to run, you need a python environment in which you shall install the fo
 pip install mkdocs
 pip install mkdocs-material
 pip install mkdocs-bibtex
+pip install markdown_tables_extended
 ```
 
 To run
