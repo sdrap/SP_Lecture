@@ -69,8 +69,8 @@ nav:
       - Markov Processes:
           - Introduction: lecture/05-Markov/050-introduction.md
           - Markov Processes: lecture/05-Markov/051-markov-extension.md
-          # - Markov Chains: lecture/05-Markov/052-markov-discrete.md
-          # - Brownian Motion: lecture/05-Markov/053-brownian.md
+          - Markov Chains: lecture/05-Markov/052-markov-discrete.md
+          - Brownian Motion: lecture/05-Markov/053-brownian.md
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
