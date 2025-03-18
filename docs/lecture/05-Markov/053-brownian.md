@@ -120,6 +120,8 @@ Recall standard notations for the path space:
     \end{equation*}
     \]
 
+    Note that for $F\subseteq G$, it holds that $\pi_{GF}(\pi_G) = \pi_F$ from which follows that the preimage satisfies $\pi^{-1}_G(\pi^{-1}_{GF}) = \pi^{-1}_F$.
+
 - **Algebra** $\mathcal{C}$ of those sets $C=\pi^{-1}_F(A)=\{ \omega \in \Omega\colon (\omega_{t_1},\ldots,\omega_{t_n})\in A \}=\{(X_{t_1},\ldots X_{t_n})\in A\}$ where $A$ is in the Borel $\sigma$-algebra $\mathcal{F}^F:=\mathcal{B}(S^F)$ and $F\subseteq\mathbf{T}$ is finite.
 - **Product $\sigma$-Algebra** $\mathcal{F}=\sigma(\mathcal{C}) =\otimes_{t \in \mathbf{T}}\mathcal{S}$
 
@@ -169,7 +171,7 @@ In other words, it is possible to construct a unique probability measure whose f
     Since $P_F$ is a probability measure, it follows that
 
     \[
-    P\left[\cup_{k\leq n} C_k\right] = P_F\left[\cup_{k\leq n} A_k\right] = \sum_{k\leq n} P_F[A_k] = \sum_{k\leq n} P[A_k].
+    P\left[\cup_{k\leq n} C_k\right] = P_F\left[\cup_{k\leq n} A_k\right] = \sum_{k\leq n} P_F[A_k] = \sum_{k\leq n} P[C_k].
     \]
 
     Therefore, $P$ is an additive probability measure on the algebra $\mathcal{C}$.
