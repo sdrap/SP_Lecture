@@ -250,8 +250,8 @@ The sequence of sets converges if $\liminf X_n = \limsup X_n$.
     \]
 
 
-![Indicator Function](./../images/indicator_dark.svg#only-dark){align = right}
-![Indicator Function](./../images/indicator_white.svg#only-light){ align = right}
+![Indicator Function](./../../images/indicator_dark.svg#only-dark){align = right}
+![Indicator Function](./../../images/indicator_white.svg#only-light){ align = right}
 
 
 !!! exercise

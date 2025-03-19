@@ -50,8 +50,8 @@ Given an event $A$ we define the **indicator function** $1_A$ as the function:
 \end{equation}
 \]
 
-![Indicator Function](./../images/indicator_dark.svg#only-dark){align = right}
-![Indicator Function](./../images/indicator_white.svg#only-light){ align = right}
+![Indicator Function](./../../images/indicator_dark.svg#only-dark){align = right}
+![Indicator Function](./../../images/indicator_white.svg#only-light){ align = right}
 
 
 

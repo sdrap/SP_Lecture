@@ -50,6 +50,9 @@ For a given index set $\mathbf{T}$, we consider $(S,\mathcal{S})$ where $S$ is a
 For ease, you may assume that $S \subseteq \mathbb{R}^d$ is a closed or open subset.
 The product of countable Polish spaces is Polish, on which according to Ulam, probability measures are regular.
 
+We recall the Ulam Theorem, see the [section on measures](./../02-Measure/024-polish.md).
+
+
 !!! theorem "Ulam"
     Let $P$ be a probability measure on $(S,\mathcal{S})$, then $P$ is **regular**, that is
 
@@ -58,40 +61,6 @@ The product of countable Polish spaces is Polish, on which according to Ulam, pr
     \]
 
     for every Borel set $A\subseteq S$.
-
-
-??? proof
-
-    Let $A \subseteq S$ be a Borel set.
-    By inner regularity of the probability measure $P$, we have
-
-    \[
-    P(A) = \sup\{P(K) \colon K \subseteq A, K \text{ compact} \}.
-    \]
-
-    To prove this, define
-
-    \[
-    \mu(A) = \sup\{P(K) \colon K \subseteq A, K \text{ compact} \}.
-    \]
-
-    Clearly, $\mu$ is an outer measure with $\mu(S) = 1$ and $\mu \leq P$.
-
-    Now, consider an open set $G \supseteq A$.
-    Since $S$ is Polish, there exists an increasing sequence of compact sets $(K_n)$ such that $G = \bigcup_{n=1}^\infty K_n$.
-    By the continuity of $P$,
-
-    \[
-    \mu(G) = \lim_{n \to \infty} P(K_n) \leq P(G).
-    \]
-
-    Taking the infimum over all such open sets $G$ containing $A$ gives
-
-    \[
-    \mu(A) \geq P(A).
-    \]
-
-    Combining both inequalities, we conclude $\mu(A) = P(A)$, proving the result.
 
 
 Recall standard notations for the path space:

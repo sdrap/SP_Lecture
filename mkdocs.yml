@@ -52,6 +52,7 @@ nav:
           - Measures: lecture/02-Measure/021-measure.md
           - From Semi-Ring to Ring: lecture/02-Measure/022-semi-ring-to-ring.md
           - From Ring to $\sigma$-Algebra: lecture/02-Measure/023-ring-to-s-algebra.md
+          - Polish Spaces: lecture/02-Measure/024-polish.md
       - Expectation:
           - Introduction/Notations: lecture/03-Integration/030-introduction.md
           - Expectation, Lebesgue's Convergence: lecture/03-Integration/031-expectation.md
