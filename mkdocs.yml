@@ -36,6 +36,9 @@ plugins:
 
 extra:
   generator: false
+  analytics:
+    provider: google
+    property: UA-61166184-1
 
 nav:
   - Home: index.md
