@@ -486,6 +486,15 @@ The goal is therefore to find a modification $B$ of $X$ such that $P[\{\omega\co
         For $\omega$ outside of $\mathcal{N}$, and $t$ we pick a sequence $(s_n)$ of elements in $\Pi$ converging to $t$ which by the uniform continuity of $\tilde{X}(\omega)$ on $\Pi$ yields a limit $X_t(\omega)=\lim \tilde{X}_{s_n}(\omega)$ independent of the choice of the sequence $(s_n)$ in $\Pi$ converging to $t$.
         It follows that $X$ has continuous paths.
         Defined as a limit of sequence of random variables, it follows also that $X$ is a process.
+        Given $\delta>0$ and $t$, for $|t-s|\leq \gamma$ from triangular as well as Markov inequality, it holds
+
+        \[
+          \begin{align*}
+            P\left[ |X_t - \tilde{X}_t|>\delta \right] & \leq P\left[ |X_t - X_s|geq \delta \right] + P\left[ |X_s - \tilde{X}_s|\geq \delta \right] 
+          \end{align*}
+        \]
+
+        
         Finally, $\{X_t=\tilde{X}_t\}$ is contained in the set of those $\omega$ such that $\tilde{X}_{s_n}(\omega)$ has a limit for some sequence $(s_n)$ in $\Pi$ converging to $t$, it follows that $\{X_t = \tilde{X}_t\}\supseteq \mathcal{N}^c$.
         Hence $P[X_t=\tilde{X}_t]\geq P[\mathcal{N}^c]=1$ showing that $X$ is a version of $\tilde{X}$ which ends the proof of the Theorem.
 

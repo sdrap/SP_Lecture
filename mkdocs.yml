@@ -75,6 +75,12 @@ nav:
           - Markov Processes: lecture/05-Markov/051-markov-extension.md
           - Markov Chains: lecture/05-Markov/052-markov-discrete.md
           - Brownian Motion: lecture/05-Markov/053-brownian.md
+      - Continuous Time Processes:
+          - Introduction: lecture/06-Continuous-Time/060-introduction.md
+          - Continuous Time Processes: lecture/06-Continuous-Time/061-continuous-time-processes.md
+          - Lebesgue-Stieljes Integral: lecture/06-Continuous-Time/062-lebesgue.md
+          - Martingales: lecture/06-Continuous-Time/063-martingales.md
+         
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
