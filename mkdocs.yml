@@ -80,7 +80,12 @@ nav:
           - Continuous Time Processes: lecture/06-Continuous-Time/061-continuous-time-processes.md
           - Lebesgue-Stieljes Integral: lecture/06-Continuous-Time/062-lebesgue.md
           - Martingales: lecture/06-Continuous-Time/063-martingales.md
-         
+      - Stochastic Integral:
+          - Introduction: lecture/07-Stochastic-Integral/070-introduction.md
+          - Doob-Meyer Decomposition: lecture/07-Stochastic-Integral/071-doob-meyer.md
+          - Stochastic Integral: lecture/07-Stochastic-Integral/072-stochastic-integral.md
+          - Quadratic Variations - Semi-Martingales: lecture/07-Stochastic-Integral/073-quadratic-variations.md
+          - Itô's Formula: lecture/07-Stochastic-Integral/074-ito-formula.md
   #         - Notations: lecture/00-Introduction/001-notations.md
   #     - One Period Model:
   #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
