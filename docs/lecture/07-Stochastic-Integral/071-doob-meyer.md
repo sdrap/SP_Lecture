@@ -244,7 +244,7 @@ Remember that we use the notation $E[\xi \colon A] := E[X 1_A]$.
         Thus, $(A_T^n)$ is uniformly integrable.
         By Dunford-Pettis, up to a subsequence, $A_T^n$ converges weakly in $L^1$ to some $A_T$ in $L^1$, that is $E[\xi A_T^n] \to E[\xi A_T]$ for all $\xi$ in $L^\infty$.
 
-    4. **Definition of the limit decomposition:*
+    4. **Definition of the limit decomposition:**
         Define $M = E[X_T - A_T \,|\, \mathcal{F}_\cdot]$, a càdlàg martingale, and $A = X^T - M$.
         So $X = M + A$ on $[0,T]$.
         We just remained to show that $A$ is natural.
@@ -287,4 +287,13 @@ Remember that we use the notation $E[\xi \colon A] := E[X 1_A]$.
         \]
 
         By Markov’s inequality and uniform integrability of $X_t - A_T$, $M$ is uniformly integrable.
+In the following we will define the stochastic integral with respect to continuous martingale using the Doob-Meyer decomposition.
+So one may think that if $X$ is continuous, then the Doob-Meyer decomposition is also continuous.
+This is not straightforward a-priori, and is the subject of the following theorem.
 
+!!! theorem
+    Let $X$ be a càdlàg sub-martingale such that $E[X_{\tau^n}]\to E[X_\tau]$ for every increasing sequence of stopping times $(\tau^n)$ with $\sup \tau^n=\tau<T$ for some $T>0$.
+    Then, the natural increasing process in the Doob-Meyer decomposition of $X$ is continuous.
+
+??? proof
+    To be updated
