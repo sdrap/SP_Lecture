@@ -1,6 +1,6 @@
 # Stochastic Integral
 
-In this Chapter we construct the stochastic integral and show the seminal Ito-Formula.
+In this Chapter we construct the stochastic integral and show the seminal It-Formula.
 
 Throughout, $(\Omega, \mathcal F, P)$ denotes a probability space with a filtration $\mathbb{F}$ satisfying the usual conditions.
 Furthermore, unless otherwise specified, the processes are continuous.

@@ -47,11 +47,11 @@ Let us fix some notations.
 
 - We denote by $\mathcal{S}$ the set of simple predictable integrands
   
-      \[
+    \[
         H=H_0+\sum_{k=1}^n H_k 1_{(\tau_{k-1},\tau_k]}
-      \]
+    \]
   
-      where along a stochastic partition $\Pi$, $H_k$ is $\mathcal{F}_{\tau_{k-1}}$-measurable and $|H_k|\leq C$ for every $k$ and some constant $C$.
+    where along a stochastic partition $\Pi$, $H_k$ is $\mathcal{F}_{\tau_{k-1}}$-measurable and $|H_k|\leq C$ for every $k$ and some constant $C$.
 
 - Finally for $H$ in $\mathcal{S}$ and $M$ in $\mathcal{M}_c^2$, we define the discrete stochastic integral
   
