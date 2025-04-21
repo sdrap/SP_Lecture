@@ -255,63 +255,98 @@ Note also that by taking $Y_t = t$ which is a semi-martingale without local mart
 
     and therefore $u(t, X_t)$ is a local martingale.
 
-!!! example "Geometric Brownian Motion"
-
-    In finance, the bank account $B$ pays interest $r \Delta$ over the period $\Delta$.
-    It follows that the value of the bank account at time $t+\Delta$ is given by $B_{t+\Delta} = B_t (1+ r\Delta)$.
-    In differential form it follows that
-
-    \[
-        dB_t \approx B_{t+\Delta} - B_t = B_t r \Delta \approx B_t r dt
-    \]
-
-    With one RMB at time $0$, that is, $B_0 = 1$, this stochastic differential equation is a simple (eventually stochastic) ODE $dB = B r dt$ with solution
+!!! example "Example: Financial Market"
+    The financial market is modeled by a bank account $B$ and stock prices $S$.
+    To simplify, we consider that we only have one stock price.
+    Hereby $B_t$ represents the value at time $t$ of one RMB at time $t$ after interest rate and $S_t$ represents the value of the stock price at time $t$.
+    The most simple model of dynamic evolution of the bank account and the stock price are given by the stochastic differential equations
 
     \[
-        B = B_0 \exp\left(\int r dt\right) = e^{\int r dt}
+    \begin{equation}
+        dB=r B dt\text{, with }B_0=1 \quad \text{and}\quad dS=S(\mu dt+\sigma dW)\text{, with }S_0>0
+    \end{equation}
     \]
 
-    On the other hand, looking at a risky asset $S$, such as a stock price,, the return between $t$ and $t+\Delta$ might be subject to uncertainty.
-    In this case, the stock price $S_{t+\Delta} = S_t(1+R_{t+\Delta})$ where
+    where $r$ represents the evolution of the interest rate in the bank and $\mu$ and $\sigma>0$ represent the drift and volatility of the stock price respectively.
+    The basic intuition behind these stochastic evolutions is that over a small interval $[t,t+\Delta]$ for a value $B_t$ on the bank account, the bank will pay out an interest $r_t$ so that after $\Delta$ amount of time you will own $B_t(1+r_t \Delta)$.
+    In other terms, the value of the bank account evolves like
 
     \[
-        R_{t+\Delta} = \mu \Delta + \sigma \sqrt{\Delta} \xi_t
+    B_{t+\Delta}=B_t(1+r_t \Delta) \quad \text{that is}\quad B_{t+\Delta}-B_t=r_t B_t \Delta 
     \]
 
-    where $\xi_t \sim \mathcal{N}(0, 1)$ is some random noise, $\mu$ is the certain return on the asset over the short period while $\sigma$ is the volatility, or amount of uncertainty.
-    For the differential form we have a problem as how $\sigma \sqrt{\Delta}\xi_t$ scales as $\Delta$ is infinitesimaly small.
-    However, from the properties of the brownian motion, it hodls that $\sqrt{\Delta}\xi_t \sim \mathcal{N}(0, \Delta) \sim W_{t+\Delta} - W_t$.
-    We can therefore reformulate the differential evolution of the stock price as
+    As for the stock price, if we denote $R_{t+\Delta}=(S_{t+\Delta}-S_t)/S_t$ the returns of the stock over a small interval, it holds $S_{t+\Delta}=S_{t}(1+R_{t+\Delta})$ or $(S_{t+\Delta}-S_t)=S_tR_{t+\Delta}$.
+    So the idea is to model the returns by assuming that they are iid and such that 
 
     \[
-        dS = S\left(\mu dt + \sigma dW\right)        
+    R_{t+\Delta}=\mu_t \Delta +\sigma_t\sqrt{\Delta} Z, \quad \text{where}\quad Z\sim \mathcal{N}(0,1)
     \]
 
-    In this case we are no longer facing an ODE but a stochastic differential equation as for the $dW$ term.
-    It is not clear as if there exists a solution $S$ that satisfies this stochastic differential equation.
-    However in this case, we can guess the solution as follows.
-    Let $X$ be the semi martingale defined as
+    In other terms the stock price, as the bank account, has a predictable evolution or drift given by $\mu_t$ over the interval.
+    However, it is also subject to random movement around this mean given by a normal distribution scaled by the volatility of the market $\sigma_t$ as well as the time interval considered.
+    Recasting, it follows that
 
     \[
-        X = \int \left( \mu -\frac{\sigma^2}{2}\right)dt + \int \sigma dW
+    S_{t+\Delta}-S_t=S_t(\mu_t \Delta+\sigma_t \Delta Z)=S_t\left( \mu_t\Delta+\sigma_t\left(W_{t+\Delta}-W_t \right)\right)
     \]
 
-    Applying Itô's formula to $f(X) = \exp(X)$, knowing that $f = f^\prime= f^{\prime\prime}$ we get
+    The main question though, is whether the stochastic differential equations describing the financial market do have a solution.
+
+    !!! proposition
+        Suppose that $r$, $\mu$ and $\sigma$ are locally bounded processes with $\sigma>0$.
+        Then, the stochastic differential equations
+        
+        \[
+          \begin{align*}
+            dB & = B rdt\\
+            dS & = S(\mu dt + \sigma dW)
+          \end{align*}
+        \]
+
+        have solutions explicitly given by
+
+        \[
+        \begin{align}
+            B & = \exp\left( \int r dt  \right) \\
+            S & = S_0\exp\left( \int \left( \mu-\frac{\sigma^2}{2} \right)dt+\int \sigma dW   \right)
+        \end{align}
+        \]
+
+    !!! proof
+        We just have to check that the process 
+
+        \[
+        \begin{align}
+            B & = \exp\left( \int r dt  \right) \\
+            S & = S_0\exp\left( \int \left( \mu-\frac{\sigma^2}{2} \right)dt+\int \sigma dW   \right)
+        \end{align}
+        \]
+
+        satisfy the corresponding stochastic differential equations.
+
+        Define $Y=\int r dt$ and $X=\int (\mu-\sigma^2/2)dt+\int \sigma dW$ which are well defined semi-martingales by the assumptions on $r$, $\mu$ and $\sigma$.
+        For $f(x)=\exp(x)$, since $f=f^\prime=f^{\prime\prime}$, it follows that $B=f(X)=f^\prime(X)=f^{\prime\prime}(X)$ and $S=S_0f(Y)=S_0f^{\prime}(Y)=f^{\prime\prime}(Y)$.
+        Furthermore $dX=rdt$ and $d\langle X\rangle =0$, as well as $dY=(\mu-\sigma^2/2) dt+\sigma dW$ and $d\langle Y\rangle=d\langle \sigma W\rangle=\sigma^2 d\langle W\rangle=\sigma^2 dt$.
+        Applying Itô's formula yields
+
+        \[
+        \begin{aligned}
+            dB = df(X) & = f^\prime(X)dX+\frac{1}{2} f^{\prime\prime}(X)d\langle X\rangle\\
+                       & = f(X)rdt\\
+                       & = B r dt\\
+            dS = S_0df(Y) & = S_0f^{\prime}(Y)dY+\frac{1}{2}S_0 f^{\prime\prime}(Y)d\langle Y\rangle\\
+                         & = S_0f(Y)\left(\left( \mu-\frac{\sigma^2}{2} \right)dt+\sigma dW\right)+\frac{1}{2}S_0f(Y)\sigma^2 dt\\
+                         & = S_0f(Y)\left( \mu dt+\sigma dW \right)\\
+                         & = S\left( \mu dt+\sigma dW \right)
+        \end{aligned}
+        \]
+
+        which ends the proof.
+
+    In particular, if $\mu=0$, it follows that $dS = \sigma S dW$ showing that
 
     \[
-        \begin{align*}
-            df(X) 
-                & = f^\prime(X)dX + \frac{1}{2}f^{\prime \prime}(X)d\langle X\rangle\\
-                & = f(X)\left(\underbrace{dX}_{=(\mu-\sigma^2/2) dt + \sigma dW} + \frac{1}{2}\underbrace{d\langle X\rangle}_{= \sigma^2 dt}\right)\\
-                & = f(X)\left(\left(\mu dt - \frac{1}{2}\sigma^2 + \frac{1}{2}\sigma^2\right)dt + \sigma dW\right)\\
-                & = f(X)(\mu dt + \sigma dW)
-        \end{align*}
+      \exp \left( \int \sigma dW - \frac{1}{2}\int \sigma^2 dt\right)
     \]
 
-    We deduce that 
-
-    \[
-        S_t = S_0 \exp \left( \int \left(\mu - \frac{\sigma^2}{2}\right)dt + \int \sigma dW\right)
-    \]
-
-    satisifies the stochastic differential equation of the stock price evolution.
+    is a local martingale.

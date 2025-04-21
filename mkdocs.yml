@@ -86,31 +86,10 @@ nav:
           - Stochastic Integral: lecture/07-Stochastic-Integral/072-stochastic-integral.md
           - Quadratic Variations - Semi-Martingales: lecture/07-Stochastic-Integral/073-quadratic-variations.md
           - Itô's Formula: lecture/07-Stochastic-Integral/074-ito-formula.md
-  #         - Notations: lecture/00-Introduction/001-notations.md
-  #     - One Period Model:
-  #         - Mathematical Model: lecture/01-One-Period/011-mathematical-model.md
-  #         - Arbitrage and Pricing: lecture/01-One-Period/012-arbitrage-pricing.md
-  #         - Derivative Securities: lecture/01-One-Period/013-derivative-securities.md
-  #     - Risk Management:
-  #         - What is Risk: lecture/02-risk-management/021-what-is-risk.md
-  #         - Risk Preferences and Measures: lecture/02-risk-management/022-risk-preferences.md
-  #         - Expected Shortfall: lecture/02-risk-management/023-oce.md
-  #     - Multi Period Model:
-  #         - Multi Period Financial Market: lecture/03-Multi-Period/031-multi-period-financial-markets.md
-  #         - Binomial Model: lecture/03-Multi-Period/032-crr-model.md
-  #         - Exotic Options: lecture/03-Multi-Period/033-exotic-options.md
-  #         - American Options: lecture/03-Multi-Period/034-american-options.md
-  #         - Default Probability: lecture/03-Multi-Period/035-ruin-probability.md
-  # - Math Add On:
-  #     - Probability: material/probability.md
-  #     - Processes: material/stochastic.md
-  # #     - Homework 01: material/hw01.md
-  # #     - Homework 02: material/hw02.md
-  # - Exercises: 
-  #     - One Period Model: material/ex01.md
-  #     - Risk Management: material/ex02.md
-  #     - Multi Period Model: material/ex03.md 
-  #     - Probability and Stochastic Processes: material/ex_math.md 
+      - Stochastic Exponential and Girsanov:
+          - Introduction: lecture/08-Stochastic-Exponential/080-introduction.md
+          - Stochastic Exponential: lecture/08-Stochastic-Exponential/081-stochastic-exponential.md
+          - Girsanov Transformation: lecture/08-Stochastic-Exponential/082-girsanov.md
 
 extra_css:
   - stylesheets/extra.css
