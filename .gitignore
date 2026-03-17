@@ -4,9 +4,6 @@
 build/
 site/
 
-# Agents
-agents/
-
 # Python (keep .py files, ignore cache)
 __pycache__/
 *.pyc
