@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-03-17
+
 ### Added
 - Exercise navigation layer with chapters 01-08
 - Code navigation layer with stochastic topics
