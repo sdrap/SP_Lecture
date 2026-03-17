@@ -5,7 +5,7 @@
 
 !!! definition
 
-    A **stochastic process* is a family $X=(X_t)$ of random variables $X_t:\Omega \to \mathbb{R}$ indexed by $t$ in $\mathbb{N}_0$.
+    A **stochastic process** is a family $X=(X_t)$ of random variables $X_t:\Omega \to \mathbb{R}$ indexed by $t$ in $\mathbb{N}_0$.
 
     For a given state $\omega$, the mapping $t \mapsto X_t(\omega)$ describing the evolution in state $\omega$ of the process is called a **sample path** or **trajectory**.
 

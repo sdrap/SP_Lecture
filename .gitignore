@@ -1,4 +1,29 @@
-#Files to be ignored
+# Files to be ignored
 
+# MkDocs
 build/
 site/
+
+# Agents
+agents/
+
+# Python (keep .py files, ignore cache)
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
