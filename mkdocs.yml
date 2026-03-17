@@ -90,6 +90,46 @@ nav:
           - Introduction: lecture/08-Stochastic-Exponential/080-introduction.md
           - Stochastic Exponential: lecture/08-Stochastic-Exponential/081-stochastic-exponential.md
           - Girsanov Transformation: lecture/08-Stochastic-Exponential/082-girsanov.md
+  - Exercises:
+      - Overview: exercises/index.md
+      - Sets, Functions and Measurability:
+          - Exercises: exercises/01-sets-functions/exercises.md
+          - Solutions: exercises/01-sets-functions/solutions.md
+      - Measure Theory:
+          - Exercises: exercises/02-measure/exercises.md
+          - Solutions: exercises/02-measure/solutions.md
+      - Integration:
+          - Exercises: exercises/03-integration/exercises.md
+          - Solutions: exercises/03-integration/solutions.md
+      - Martingales:
+          - Exercises: exercises/04-martingales/exercises.md
+          - Solutions: exercises/04-martingales/solutions.md
+      - Markov Processes:
+          - Exercises: exercises/05-markov/exercises.md
+          - Solutions: exercises/05-markov/solutions.md
+      - Continuous Time Processes:
+          - Exercises: exercises/06-continuous-time/exercises.md
+          - Solutions: exercises/06-continuous-time/solutions.md
+      - Stochastic Integral:
+          - Exercises: exercises/07-stochastic-integral/exercises.md
+          - Solutions: exercises/07-stochastic-integral/solutions.md
+      - Stochastic Exponential:
+          - Exercises: exercises/08-stochastic-exponential/exercises.md
+          - Solutions: exercises/08-stochastic-exponential/solutions.md
+  - Code:
+      - Overview: code/index.md
+      - Probability Foundations: code/probability-foundations.md
+      - Random Walks: code/random-walks.md
+      - Stopping Times: code/stopping-times.md
+      - Markov Chains: code/markov-chains.md
+      - Brownian Motion: code/brownian-motion.md
+      - Martingales: code/martingales.md
+      - Stochastic Integral: code/stochastic-integral.md
+      - Itô Calculus: code/ito-calculus.md
+      - SDEs: code/sdes.md
+      - Girsanov: code/girsanov.md
+      - Option Pricing: code/option-pricing.md
+      - Monte Carlo: code/monte-carlo.md
 
 extra_css:
   - stylesheets/extra.css
